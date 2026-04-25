@@ -1,0 +1,804 @@
+{
+  "query": "research on ai on sericulture",
+  "plan": {
+    "plan": [
+      "Conduct a literature review on the current state of sericulture and its challenges",
+      "Identify potential applications of AI in sericulture, such as disease detection and silk production optimization",
+      "Research existing AI-powered solutions for sericulture, including machine learning and computer vision",
+      "Analyze the impact of AI on sericulture in terms of efficiency, productivity, and sustainability",
+      "Investigate the role of AI in sericulture-related decision-making, such as pest management and climate control",
+      "Examine the potential for AI to improve the quality and consistency of silk production",
+      "Evaluate the economic and social implications of AI adoption in sericulture"
+    ],
+    "retrieval_queries": [
+      "AI applications in sericulture",
+      "Machine learning for disease detection in sericulture",
+      "Computer vision for silk quality control",
+      "Impact of AI on sericulture productivity",
+      "AI-powered decision-making in sericulture",
+      "Sustainability of AI in sericulture"
+    ]
+  },
+  "insight": {
+    "error": "Invalid JSON response",
+    "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 1214. Please try again in 15m29.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  "final_answer": "",
+  "confidence": 0.6,
+  "risk": "Medium",
+  "gaps": [],
+  "trends": [],
+  "critique": {
+    "error": "Invalid JSON response",
+    "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 1755. Please try again in 23m17.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  "risk_flags": [],
+  "graph": {
+    "nodes": [
+      {
+        "id": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+        "label": "Artificial Intelligence in the New Era of Sericulture",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+        "citations": 2
+      },
+      {
+        "id": "http://insights.sent2promo.com/id/eprint/2962/",
+        "label": "Applications of Artificial Intelligence in Sericulture",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "http://insights.sent2promo.com/id/eprint/2962/",
+        "citations": 2
+      },
+      {
+        "id": "https://ieeexplore.ieee.org/abstract/document/10816994/",
+        "label": "Silk shield: empowering sericulture with AI-driven disease detection",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10816994/",
+        "citations": 2
+      },
+      {
+        "id": "https://www.researchgate.net/profile/Dhanapriya-Manoharan/publication/392506340_Development_of_an_AI-Integrated_Smart_Sericulture_System_for_Climate-_resilient_Silk_Production_in_India/links/68ad42baca495d76982fee4f/Development-of-an-AI-Integrated-Smart-Sericulture-System-for-Climate-resilient-Silk-Production-in-India.pdf",
+        "label": "Development of an AI-Integrated Smart Sericulture System for Climate-resilient Silk Production in India",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://www.researchgate.net/profile/Dhanapriya-Manoharan/publication/392506340_Development_of_an_AI-Integrated_Smart_Sericulture_System_for_Climate-_resilient_Silk_Production_in_India/links/68ad42baca495d76982fee4f/Development-of-an-AI-Integrated-Smart-Sericulture-System-for-Climate-resilient-Silk-Production-in-India.pdf",
+        "citations": 1
+      },
+      {
+        "id": "https://link.springer.com/chapter/10.1007/978-3-032-06674-9_4",
+        "label": "AI and AR Based Integrated Solution for Optimal Sericulture Management",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-032-06674-9_4",
+        "citations": null
+      },
+      {
+        "id": "https://dl.acm.org/doi/abs/10.1145/3745238.3745296",
+        "label": "Research on optimization of Guangdong sericulture industry chain driven by artificial intelligence",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://dl.acm.org/doi/abs/10.1145/3745238.3745296",
+        "citations": null
+      }
+    ],
+    "edges": [
+      {
+        "source": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+        "target": "http://insights.sent2promo.com/id/eprint/2962/",
+        "weight": 5
+      },
+      {
+        "source": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+        "target": "https://dl.acm.org/doi/abs/10.1145/3745238.3745296",
+        "weight": 4
+      },
+      {
+        "source": "http://insights.sent2promo.com/id/eprint/2962/",
+        "target": "https://dl.acm.org/doi/abs/10.1145/3745238.3745296",
+        "weight": 4
+      }
+    ]
+  },
+  "papers_analyzed": 6,
+  "selection": {
+    "error": "Invalid JSON response",
+    "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 1611. Please try again in 21m12.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  "top_papers": [
+    {
+      "title": "Artificial Intelligence in the New Era of Sericulture",
+      "abstract": "… , rice, and maize, the sericulture sector represents a high-value, … As such, AI applications in sericulture offer significant … , and future directions of AI in the sericulture industry. It provides a …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+      "paper_id": null,
+      "citations": 2,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.9734/jsrr/2025/v31i83422",
+      "index": 1,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "Applications of Artificial Intelligence in Sericulture",
+      "abstract": "… As the use of AI is gaining momentum, the sericulture industry is also bound to use them to some extent even though they are not very much popular. This article underscores the …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "http://insights.sent2promo.com/id/eprint/2962/",
+      "paper_id": null,
+      "citations": 2,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.9734/air/2024/v25i41122",
+      "index": 2,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "Silk shield: empowering sericulture with AI-driven disease detection",
+      "abstract": "… , being the major source of silk fibers through sericulture. However, the sustainability and productivity of sericulture are under threat from various diseases affecting silkworm populations …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10816994/",
+      "paper_id": null,
+      "citations": 2,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "conference",
+      "doi": "10.1109/csitss64042.2024.10816994",
+      "index": 3,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "Development of an AI-Integrated Smart Sericulture System for Climate-resilient Silk Production in India",
+      "abstract": "… Sericulture is a key agro-based rural industry in India, contributing significantly towards … A framework for strategy in developing an AI-enabled smart sericulture system to enhance …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://www.researchgate.net/profile/Dhanapriya-Manoharan/publication/392506340_Development_of_an_AI-Integrated_Smart_Sericulture_System_for_Climate-_resilient_Silk_Production_in_India/links/68ad42baca495d76982fee4f/Development-of-an-AI-Integrated-Smart-Sericulture-System-for-Climate-resilient-Silk-Production-in-India.pdf",
+      "paper_id": null,
+      "citations": 1,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.9734/ajee/2025/v24i6732",
+      "index": 4,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "AI and AR Based Integrated Solution for Optimal Sericulture Management",
+      "abstract": "… the system and its ability to solve the main sericulture problems. Overall, this study proves that advanced technologies can transform sericulture by enhancing accuracy, automation, and …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-032-06674-9_4",
+      "paper_id": null,
+      "citations": null,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "web",
+      "doi": "10.1007/978-3-032-06674-9_4",
+      "index": 5,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    }
+  ],
+  "key_points": [],
+  "agent_logs": [
+    {
+      "agent": "Research Strategist",
+      "thought": "Executed planner",
+      "output": {
+        "plan": {
+          "plan": [
+            "Conduct a literature review on the current state of sericulture and its challenges",
+            "Identify potential applications of AI in sericulture, such as disease detection and silk production optimization",
+            "Research existing AI-powered solutions for sericulture, including machine learning and computer vision",
+            "Analyze the impact of AI on sericulture in terms of efficiency, productivity, and sustainability",
+            "Investigate the role of AI in sericulture-related decision-making, such as pest management and climate control",
+            "Examine the potential for AI to improve the quality and consistency of silk production",
+            "Evaluate the economic and social implications of AI adoption in sericulture"
+          ],
+          "retrieval_queries": [
+            "AI applications in sericulture",
+            "Machine learning for disease detection in sericulture",
+            "Computer vision for silk quality control",
+            "Impact of AI on sericulture productivity",
+            "AI-powered decision-making in sericulture",
+            "Sustainability of AI in sericulture"
+          ]
+        }
+      }
+    },
+    {
+      "agent": "Information Scout",
+      "thought": "Executed retriever",
+      "output": {
+        "papers": [
+          {
+            "title": "Artificial Intelligence in the New Era of Sericulture",
+            "abstract": "… , rice, and maize, the sericulture sector represents a high-value, … As such, AI applications in sericulture offer significant … , and future directions of AI in the sericulture industry. It provides a …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Applications of Artificial Intelligence in Sericulture",
+            "abstract": "… As the use of AI is gaining momentum, the sericulture industry is also bound to use them to some extent even though they are not very much popular. This article underscores the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "http://insights.sent2promo.com/id/eprint/2962/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Silk shield: empowering sericulture with AI-driven disease detection",
+            "abstract": "… , being the major source of silk fibers through sericulture. However, the sustainability and productivity of sericulture are under threat from various diseases affecting silkworm populations …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10816994/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Development of an AI-Integrated Smart Sericulture System for Climate-resilient Silk Production in India",
+            "abstract": "… Sericulture is a key agro-based rural industry in India, contributing significantly towards … A framework for strategy in developing an AI-enabled smart sericulture system to enhance …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Dhanapriya-Manoharan/publication/392506340_Development_of_an_AI-Integrated_Smart_Sericulture_System_for_Climate-_resilient_Silk_Production_in_India/links/68ad42baca495d76982fee4f/Development-of-an-AI-Integrated-Smart-Sericulture-System-for-Climate-resilient-Silk-Production-in-India.pdf",
+            "paper_id": null,
+            "citations": 1,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "AI and AR Based Integrated Solution for Optimal Sericulture Management",
+            "abstract": "… the system and its ability to solve the main sericulture problems. Overall, this study proves that advanced technologies can transform sericulture by enhancing accuracy, automation, and …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-032-06674-9_4",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Research on optimization of Guangdong sericulture industry chain driven by artificial intelligence",
+            "abstract": "… and interpreting data from six representative sericulture companies in the Pearl River Delta … allocation platforms, demand estimation methods and AI-assisted inventory control systems, …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3745238.3745296",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          }
+        ],
+        "papers_count": 6,
+        "retriever_note": "Retriever returns real paper metadata only (no LLM summarization)."
+      }
+    },
+    {
+      "agent": "Verifier",
+      "thought": "Executed verifier",
+      "output": {
+        "papers": [
+          {
+            "title": "Artificial Intelligence in the New Era of Sericulture",
+            "abstract": "… , rice, and maize, the sericulture sector represents a high-value, … As such, AI applications in sericulture offer significant … , and future directions of AI in the sericulture industry. It provides a …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/jsrr/2025/v31i83422"
+          },
+          {
+            "title": "Applications of Artificial Intelligence in Sericulture",
+            "abstract": "… As the use of AI is gaining momentum, the sericulture industry is also bound to use them to some extent even though they are not very much popular. This article underscores the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "http://insights.sent2promo.com/id/eprint/2962/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/air/2024/v25i41122"
+          },
+          {
+            "title": "Silk shield: empowering sericulture with AI-driven disease detection",
+            "abstract": "… , being the major source of silk fibers through sericulture. However, the sustainability and productivity of sericulture are under threat from various diseases affecting silkworm populations …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10816994/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1109/csitss64042.2024.10816994"
+          },
+          {
+            "title": "Development of an AI-Integrated Smart Sericulture System for Climate-resilient Silk Production in India",
+            "abstract": "… Sericulture is a key agro-based rural industry in India, contributing significantly towards … A framework for strategy in developing an AI-enabled smart sericulture system to enhance …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Dhanapriya-Manoharan/publication/392506340_Development_of_an_AI-Integrated_Smart_Sericulture_System_for_Climate-_resilient_Silk_Production_in_India/links/68ad42baca495d76982fee4f/Development-of-an-AI-Integrated-Smart-Sericulture-System-for-Climate-resilient-Silk-Production-in-India.pdf",
+            "paper_id": null,
+            "citations": 1,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/ajee/2025/v24i6732"
+          },
+          {
+            "title": "AI and AR Based Integrated Solution for Optimal Sericulture Management",
+            "abstract": "… the system and its ability to solve the main sericulture problems. Overall, this study proves that advanced technologies can transform sericulture by enhancing accuracy, automation, and …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-032-06674-9_4",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1007/978-3-032-06674-9_4"
+          },
+          {
+            "title": "Research on optimization of Guangdong sericulture industry chain driven by artificial intelligence",
+            "abstract": "… and interpreting data from six representative sericulture companies in the Pearl River Delta … allocation platforms, demand estimation methods and AI-assisted inventory control systems, …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3745238.3745296",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1145/3745238.3745296"
+          }
+        ],
+        "verification_summary": {
+          "verified_count": 6,
+          "doi_enriched": 6,
+          "note": "CrossRef title matching is best-effort; verify ≠ correctness."
+        }
+      }
+    },
+    {
+      "agent": "Research Filtering & Ranking Engine",
+      "thought": "Executed filter",
+      "output": {
+        "selected_papers_meta": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 1611. Please try again in 21m12.672s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        },
+        "selected_papers": [
+          {
+            "title": "Artificial Intelligence in the New Era of Sericulture",
+            "abstract": "… , rice, and maize, the sericulture sector represents a high-value, … As such, AI applications in sericulture offer significant … , and future directions of AI in the sericulture industry. It provides a …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/jsrr/2025/v31i83422"
+          },
+          {
+            "title": "Applications of Artificial Intelligence in Sericulture",
+            "abstract": "… As the use of AI is gaining momentum, the sericulture industry is also bound to use them to some extent even though they are not very much popular. This article underscores the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "http://insights.sent2promo.com/id/eprint/2962/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/air/2024/v25i41122"
+          },
+          {
+            "title": "Silk shield: empowering sericulture with AI-driven disease detection",
+            "abstract": "… , being the major source of silk fibers through sericulture. However, the sustainability and productivity of sericulture are under threat from various diseases affecting silkworm populations …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10816994/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1109/csitss64042.2024.10816994"
+          },
+          {
+            "title": "Development of an AI-Integrated Smart Sericulture System for Climate-resilient Silk Production in India",
+            "abstract": "… Sericulture is a key agro-based rural industry in India, contributing significantly towards … A framework for strategy in developing an AI-enabled smart sericulture system to enhance …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Dhanapriya-Manoharan/publication/392506340_Development_of_an_AI-Integrated_Smart_Sericulture_System_for_Climate-_resilient_Silk_Production_in_India/links/68ad42baca495d76982fee4f/Development-of-an-AI-Integrated-Smart-Sericulture-System-for-Climate-resilient-Silk-Production-in-India.pdf",
+            "paper_id": null,
+            "citations": 1,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/ajee/2025/v24i6732"
+          },
+          {
+            "title": "AI and AR Based Integrated Solution for Optimal Sericulture Management",
+            "abstract": "… the system and its ability to solve the main sericulture problems. Overall, this study proves that advanced technologies can transform sericulture by enhancing accuracy, automation, and …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-032-06674-9_4",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1007/978-3-032-06674-9_4"
+          },
+          {
+            "title": "Research on optimization of Guangdong sericulture industry chain driven by artificial intelligence",
+            "abstract": "… and interpreting data from six representative sericulture companies in the Pearl River Delta … allocation platforms, demand estimation methods and AI-assisted inventory control systems, …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3745238.3745296",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1145/3745238.3745296"
+          }
+        ],
+        "selected_papers_count": 6
+      }
+    },
+    {
+      "agent": "Domain Specialist",
+      "thought": "Executed domain",
+      "output": {
+        "domain": null,
+        "topics": [],
+        "query_analysis": {}
+      }
+    },
+    {
+      "agent": "Recency & Relevance Specialist",
+      "thought": "Executed recency",
+      "output": {
+        "scored_papers": [
+          {
+            "title": "Artificial Intelligence in the New Era of Sericulture",
+            "abstract": "… , rice, and maize, the sericulture sector represents a high-value, … As such, AI applications in sericulture offer significant … , and future directions of AI in the sericulture industry. It provides a …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/jsrr/2025/v31i83422",
+            "index": 1,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Applications of Artificial Intelligence in Sericulture",
+            "abstract": "… As the use of AI is gaining momentum, the sericulture industry is also bound to use them to some extent even though they are not very much popular. This article underscores the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "http://insights.sent2promo.com/id/eprint/2962/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/air/2024/v25i41122",
+            "index": 2,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Silk shield: empowering sericulture with AI-driven disease detection",
+            "abstract": "… , being the major source of silk fibers through sericulture. However, the sustainability and productivity of sericulture are under threat from various diseases affecting silkworm populations …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10816994/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1109/csitss64042.2024.10816994",
+            "index": 3,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Development of an AI-Integrated Smart Sericulture System for Climate-resilient Silk Production in India",
+            "abstract": "… Sericulture is a key agro-based rural industry in India, contributing significantly towards … A framework for strategy in developing an AI-enabled smart sericulture system to enhance …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Dhanapriya-Manoharan/publication/392506340_Development_of_an_AI-Integrated_Smart_Sericulture_System_for_Climate-_resilient_Silk_Production_in_India/links/68ad42baca495d76982fee4f/Development-of-an-AI-Integrated-Smart-Sericulture-System-for-Climate-resilient-Silk-Production-in-India.pdf",
+            "paper_id": null,
+            "citations": 1,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/ajee/2025/v24i6732",
+            "index": 4,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "AI and AR Based Integrated Solution for Optimal Sericulture Management",
+            "abstract": "… the system and its ability to solve the main sericulture problems. Overall, this study proves that advanced technologies can transform sericulture by enhancing accuracy, automation, and …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-032-06674-9_4",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1007/978-3-032-06674-9_4",
+            "index": 5,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Research on optimization of Guangdong sericulture industry chain driven by artificial intelligence",
+            "abstract": "… and interpreting data from six representative sericulture companies in the Pearl River Delta … allocation platforms, demand estimation methods and AI-assisted inventory control systems, …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://dl.acm.org/doi/abs/10.1145/3745238.3745296",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1145/3745238.3745296",
+            "index": 6,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          }
+        ],
+        "top_papers": [
+          {
+            "title": "Artificial Intelligence in the New Era of Sericulture",
+            "abstract": "… , rice, and maize, the sericulture sector represents a high-value, … As such, AI applications in sericulture offer significant … , and future directions of AI in the sericulture industry. It provides a …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Praveen-Kumar-Gowda-N-M/publication/394794950_Artificial_intelligence_in_the_New_Era_of_Sericulture/links/68a6c4ed1bee4d42a241be21/Artificial-intelligence-in-the-New-Era-of-Sericulture.pdf",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/jsrr/2025/v31i83422",
+            "index": 1,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Applications of Artificial Intelligence in Sericulture",
+            "abstract": "… As the use of AI is gaining momentum, the sericulture industry is also bound to use them to some extent even though they are not very much popular. This article underscores the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "http://insights.sent2promo.com/id/eprint/2962/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/air/2024/v25i41122",
+            "index": 2,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Silk shield: empowering sericulture with AI-driven disease detection",
+            "abstract": "… , being the major source of silk fibers through sericulture. However, the sustainability and productivity of sericulture are under threat from various diseases affecting silkworm populations …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10816994/",
+            "paper_id": null,
+            "citations": 2,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1109/csitss64042.2024.10816994",
+            "index": 3,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Development of an AI-Integrated Smart Sericulture System for Climate-resilient Silk Production in India",
+            "abstract": "… Sericulture is a key agro-based rural industry in India, contributing significantly towards … A framework for strategy in developing an AI-enabled smart sericulture system to enhance …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Dhanapriya-Manoharan/publication/392506340_Development_of_an_AI-Integrated_Smart_Sericulture_System_for_Climate-_resilient_Silk_Production_in_India/links/68ad42baca495d76982fee4f/Development-of-an-AI-Integrated-Smart-Sericulture-System-for-Climate-resilient-Silk-Production-in-India.pdf",
+            "paper_id": null,
+            "citations": 1,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.9734/ajee/2025/v24i6732",
+            "index": 4,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "AI and AR Based Integrated Solution for Optimal Sericulture Management",
+            "abstract": "… the system and its ability to solve the main sericulture problems. Overall, this study proves that advanced technologies can transform sericulture by enhancing accuracy, automation, and …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-032-06674-9_4",
+            "paper_id": null,
+            "citations": null,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1007/978-3-032-06674-9_4",
+            "index": 5,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Insight Analyzer",
+      "thought": "Executed insight (parallel)",
+      "output": {
+        "insight": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 1214. Please try again in 15m29.664s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Gap Detector",
+      "thought": "Executed gap (parallel)",
+      "output": {
+        "gaps": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 1581. Please try again in 20m46.752s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Trend Analyst",
+      "thought": "Executed trend (parallel)",
+      "output": {
+        "trends": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 1323. Please try again in 17m3.839999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Devil's Advocate",
+      "thought": "Executed critic",
+      "output": {
+        "critique": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99862, Requested 1755. Please try again in 23m17.088s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        },
+        "conflicts_detected": null
+      }
+    },
+    {
+      "agent": "Consensus Voter",
+      "thought": "Executed voter",
+      "output": {
+        "consensus": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99861, Requested 846. Please try again in 10m10.848s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Confidence & Risk Assessor",
+      "thought": "Executed confidence",
+      "output": {
+        "confidence_assessment": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99861, Requested 1825. Please try again in 24m16.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    }
+  ],
+  "run_id": "6948982e-b326-4f71-a80d-5e8df3df0f71",
+  "saved_at": "2026-04-24T20:58:30.665250Z"
+}

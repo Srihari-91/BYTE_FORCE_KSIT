@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  html {
+    @apply scroll-smooth antialiased;
+  }
+  body {
+    @apply min-h-screen bg-os-bg text-os-fg font-sans;
+    background-image:
+      radial-gradient(ellipse 100% 80% at 50% -30%, rgba(56, 189, 248, 0.14), transparent 50%),
+      radial-gradient(ellipse 60% 40% at 100% 0%, rgba(167, 139, 250, 0.1), transparent 45%),
+      linear-gradient(180deg, #070b14 0%, #0a0f1a 40%, #070b14 100%);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .glass-panel {
+    @apply border border-white/[0.06] bg-os-panel backdrop-blur-xl;
+  }
+}
+
+/* Legacy class names used by a few retained pieces */
+.agent-logs {
+  @apply flex flex-col gap-4;
+}
+.agent-card {
+  @apply glass-panel rounded-2xl p-5 shadow-card;
+}

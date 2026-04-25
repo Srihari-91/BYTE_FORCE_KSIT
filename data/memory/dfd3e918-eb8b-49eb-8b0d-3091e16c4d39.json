@@ -1,0 +1,819 @@
+{
+  "query": "research on ai in agriculture",
+  "plan": {
+    "error": "Invalid JSON response",
+    "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99992, Requested 352. Please try again in 4m57.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  "insight": {
+    "error": "Invalid JSON response",
+    "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99985, Requested 1501. Please try again in 21m23.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  "final_answer": "",
+  "confidence": 0.6,
+  "risk": "Medium",
+  "gaps": [],
+  "trends": [],
+  "critique": {
+    "error": "Invalid JSON response",
+    "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99985, Requested 2006. Please try again in 28m40.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  "risk_flags": [],
+  "graph": {
+    "nodes": [
+      {
+        "id": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+        "label": "Applications of artificial intelligence in agriculture: A review.",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+        "citations": 694
+      },
+      {
+        "id": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+        "label": "Artificial intelligence (AI) in agriculture",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+        "citations": 473
+      },
+      {
+        "id": "https://www.mdpi.com/2076-3417/13/13/7405",
+        "label": "Artificial intelligence in agriculture: benefits, challenges, and trends",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://www.mdpi.com/2076-3417/13/13/7405",
+        "citations": 200
+      },
+      {
+        "id": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+        "label": "Implementation of artificial intelligence in agriculture",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+        "citations": 153
+      },
+      {
+        "id": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+        "label": "Artificial intelligence in agriculture",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+        "citations": 127
+      },
+      {
+        "id": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02531496&AN=164698870&h=%2Fh%2Bq0uw0wsYL4bRVYqQjmJ0CZAqr68tt6HnyD%2F%2BpauIAMPCrfIygfIycxNYxBNjrIFMmjDE893g%2FA%2BepyCFZAw%3D%3D&crl=c",
+        "label": "Role of AI in Agriculture: Applications, Limitations and Challenges: A Review.",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "general",
+        "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02531496&AN=164698870&h=%2Fh%2Bq0uw0wsYL4bRVYqQjmJ0CZAqr68tt6HnyD%2F%2BpauIAMPCrfIygfIycxNYxBNjrIFMmjDE893g%2FA%2BepyCFZAw%3D%3D&crl=c",
+        "citations": 24
+      }
+    ],
+    "edges": [
+      {
+        "source": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+        "target": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+        "weight": 4
+      },
+      {
+        "source": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+        "target": "https://www.mdpi.com/2076-3417/13/13/7405",
+        "weight": 4
+      },
+      {
+        "source": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+        "target": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+        "weight": 6
+      },
+      {
+        "source": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+        "target": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+        "weight": 6
+      },
+      {
+        "source": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+        "target": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02531496&AN=164698870&h=%2Fh%2Bq0uw0wsYL4bRVYqQjmJ0CZAqr68tt6HnyD%2F%2BpauIAMPCrfIygfIycxNYxBNjrIFMmjDE893g%2FA%2BepyCFZAw%3D%3D&crl=c",
+        "weight": 4
+      },
+      {
+        "source": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+        "target": "https://www.mdpi.com/2076-3417/13/13/7405",
+        "weight": 3
+      },
+      {
+        "source": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+        "target": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+        "weight": 4
+      },
+      {
+        "source": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+        "target": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+        "weight": 3
+      },
+      {
+        "source": "https://www.mdpi.com/2076-3417/13/13/7405",
+        "target": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+        "weight": 3
+      },
+      {
+        "source": "https://www.mdpi.com/2076-3417/13/13/7405",
+        "target": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+        "weight": 4
+      },
+      {
+        "source": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+        "target": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+        "weight": 3
+      },
+      {
+        "source": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+        "target": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02531496&AN=164698870&h=%2Fh%2Bq0uw0wsYL4bRVYqQjmJ0CZAqr68tt6HnyD%2F%2BpauIAMPCrfIygfIycxNYxBNjrIFMmjDE893g%2FA%2BepyCFZAw%3D%3D&crl=c",
+        "weight": 3
+      }
+    ]
+  },
+  "papers_analyzed": 6,
+  "selection": {
+    "error": "Invalid JSON response",
+    "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99985, Requested 1604. Please try again in 22m52.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+  },
+  "top_papers": [
+    {
+      "title": "Applications of artificial intelligence in agriculture: A review.",
+      "abstract": "… Although agricultural practice is broad, this research considers soil, crop, disease and … to agricultural production. It is paramount to review the application of AI to agriculture in respect to …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+      "paper_id": null,
+      "citations": 694,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "web",
+      "doi": null,
+      "index": 1,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "Artificial intelligence (AI) in agriculture",
+      "abstract": "… AI offers sweeping transformation with advanced approaches that will redefine the traditional pattern and limits of agriculture. AI will drive an agricultural revolution at a time when the …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+      "paper_id": null,
+      "citations": 473,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.1109/mitp.2020.2986121",
+      "index": 2,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "Artificial intelligence in agriculture: benefits, challenges, and trends",
+      "abstract": "… were researched in [7]; big data in agriculture in [8]; and agriculture 4.0 in [9,10]. This work … application of AI in agriculture to alleviate problems in the seven main agriculture domains …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://www.mdpi.com/2076-3417/13/13/7405",
+      "paper_id": null,
+      "citations": 200,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.3390/app13137405",
+      "index": 3,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "Implementation of artificial intelligence in agriculture",
+      "abstract": "… crop establishing in the agricultural industry all benefit from artificial intelligence (AI)-based … Agricultural robotics are being developed in order to give high-value AI applications in the …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+      "paper_id": null,
+      "citations": 153,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.47852/bonviewjcce2202174",
+      "index": 4,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "Artificial intelligence in agriculture",
+      "abstract": "… The application of AI in agriculture has been widely considered as one of … of AI’s application in agronomic areas and progress in research labs. The review first presents two fields that AI …",
+      "year": null,
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+      "paper_id": null,
+      "citations": 127,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "web",
+      "doi": "10.1201/9781003647423-7",
+      "index": 5,
+      "recency_score": 3,
+      "relevance_score": 4,
+      "verdict": "❌ Outdated"
+    }
+  ],
+  "key_points": [],
+  "agent_logs": [
+    {
+      "agent": "Research Strategist",
+      "thought": "Executed planner",
+      "output": {
+        "plan": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99992, Requested 352. Please try again in 4m57.216s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Information Scout",
+      "thought": "Executed retriever",
+      "output": {
+        "papers": [
+          {
+            "title": "Applications of artificial intelligence in agriculture: A review.",
+            "abstract": "… Although agricultural practice is broad, this research considers soil, crop, disease and … to agricultural production. It is paramount to review the application of AI to agriculture in respect to …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+            "paper_id": null,
+            "citations": 694,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Artificial intelligence (AI) in agriculture",
+            "abstract": "… AI offers sweeping transformation with advanced approaches that will redefine the traditional pattern and limits of agriculture. AI will drive an agricultural revolution at a time when the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+            "paper_id": null,
+            "citations": 473,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Artificial intelligence in agriculture: benefits, challenges, and trends",
+            "abstract": "… were researched in [7]; big data in agriculture in [8]; and agriculture 4.0 in [9,10]. This work … application of AI in agriculture to alleviate problems in the seven main agriculture domains …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2076-3417/13/13/7405",
+            "paper_id": null,
+            "citations": 200,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Implementation of artificial intelligence in agriculture",
+            "abstract": "… crop establishing in the agricultural industry all benefit from artificial intelligence (AI)-based … Agricultural robotics are being developed in order to give high-value AI applications in the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+            "paper_id": null,
+            "citations": 153,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Artificial intelligence in agriculture",
+            "abstract": "… The application of AI in agriculture has been widely considered as one of … of AI’s application in agronomic areas and progress in research labs. The review first presents two fields that AI …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+            "paper_id": null,
+            "citations": 127,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Role of AI in Agriculture: Applications, Limitations and Challenges: A Review.",
+            "abstract": "… Recent advances in agriculture … AI based equipment that will change the phase of agriculture. Hence study was undertaken to review various research works based on AI in agriculture …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02531496&AN=164698870&h=%2Fh%2Bq0uw0wsYL4bRVYqQjmJ0CZAqr68tt6HnyD%2F%2BpauIAMPCrfIygfIycxNYxBNjrIFMmjDE893g%2FA%2BepyCFZAw%3D%3D&crl=c",
+            "paper_id": null,
+            "citations": 24,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          }
+        ],
+        "papers_count": 6,
+        "retriever_note": "Retriever returns real paper metadata only (no LLM summarization)."
+      }
+    },
+    {
+      "agent": "Verifier",
+      "thought": "Executed verifier",
+      "output": {
+        "papers": [
+          {
+            "title": "Applications of artificial intelligence in agriculture: A review.",
+            "abstract": "… Although agricultural practice is broad, this research considers soil, crop, disease and … to agricultural production. It is paramount to review the application of AI to agriculture in respect to …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+            "paper_id": null,
+            "citations": 694,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Artificial intelligence (AI) in agriculture",
+            "abstract": "… AI offers sweeping transformation with advanced approaches that will redefine the traditional pattern and limits of agriculture. AI will drive an agricultural revolution at a time when the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+            "paper_id": null,
+            "citations": 473,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/mitp.2020.2986121"
+          },
+          {
+            "title": "Artificial intelligence in agriculture: benefits, challenges, and trends",
+            "abstract": "… were researched in [7]; big data in agriculture in [8]; and agriculture 4.0 in [9,10]. This work … application of AI in agriculture to alleviate problems in the seven main agriculture domains …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2076-3417/13/13/7405",
+            "paper_id": null,
+            "citations": 200,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/app13137405"
+          },
+          {
+            "title": "Implementation of artificial intelligence in agriculture",
+            "abstract": "… crop establishing in the agricultural industry all benefit from artificial intelligence (AI)-based … Agricultural robotics are being developed in order to give high-value AI applications in the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+            "paper_id": null,
+            "citations": 153,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.47852/bonviewjcce2202174"
+          },
+          {
+            "title": "Artificial intelligence in agriculture",
+            "abstract": "… The application of AI in agriculture has been widely considered as one of … of AI’s application in agronomic areas and progress in research labs. The review first presents two fields that AI …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+            "paper_id": null,
+            "citations": 127,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1201/9781003647423-7"
+          },
+          {
+            "title": "Role of AI in Agriculture: Applications, Limitations and Challenges: A Review.",
+            "abstract": "… Recent advances in agriculture … AI based equipment that will change the phase of agriculture. Hence study was undertaken to review various research works based on AI in agriculture …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02531496&AN=164698870&h=%2Fh%2Bq0uw0wsYL4bRVYqQjmJ0CZAqr68tt6HnyD%2F%2BpauIAMPCrfIygfIycxNYxBNjrIFMmjDE893g%2FA%2BepyCFZAw%3D%3D&crl=c",
+            "paper_id": null,
+            "citations": 24,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.18805/ag.r-2215"
+          }
+        ],
+        "verification_summary": {
+          "verified_count": 6,
+          "doi_enriched": 5,
+          "note": "CrossRef title matching is best-effort; verify ≠ correctness."
+        }
+      }
+    },
+    {
+      "agent": "Research Filtering & Ranking Engine",
+      "thought": "Executed filter",
+      "output": {
+        "selected_papers_meta": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99985, Requested 1604. Please try again in 22m52.896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        },
+        "selected_papers": [
+          {
+            "title": "Applications of artificial intelligence in agriculture: A review.",
+            "abstract": "… Although agricultural practice is broad, this research considers soil, crop, disease and … to agricultural production. It is paramount to review the application of AI to agriculture in respect to …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+            "paper_id": null,
+            "citations": 694,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null
+          },
+          {
+            "title": "Artificial intelligence (AI) in agriculture",
+            "abstract": "… AI offers sweeping transformation with advanced approaches that will redefine the traditional pattern and limits of agriculture. AI will drive an agricultural revolution at a time when the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+            "paper_id": null,
+            "citations": 473,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/mitp.2020.2986121"
+          },
+          {
+            "title": "Artificial intelligence in agriculture: benefits, challenges, and trends",
+            "abstract": "… were researched in [7]; big data in agriculture in [8]; and agriculture 4.0 in [9,10]. This work … application of AI in agriculture to alleviate problems in the seven main agriculture domains …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2076-3417/13/13/7405",
+            "paper_id": null,
+            "citations": 200,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/app13137405"
+          },
+          {
+            "title": "Implementation of artificial intelligence in agriculture",
+            "abstract": "… crop establishing in the agricultural industry all benefit from artificial intelligence (AI)-based … Agricultural robotics are being developed in order to give high-value AI applications in the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+            "paper_id": null,
+            "citations": 153,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.47852/bonviewjcce2202174"
+          },
+          {
+            "title": "Artificial intelligence in agriculture",
+            "abstract": "… The application of AI in agriculture has been widely considered as one of … of AI’s application in agronomic areas and progress in research labs. The review first presents two fields that AI …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+            "paper_id": null,
+            "citations": 127,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1201/9781003647423-7"
+          },
+          {
+            "title": "Role of AI in Agriculture: Applications, Limitations and Challenges: A Review.",
+            "abstract": "… Recent advances in agriculture … AI based equipment that will change the phase of agriculture. Hence study was undertaken to review various research works based on AI in agriculture …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02531496&AN=164698870&h=%2Fh%2Bq0uw0wsYL4bRVYqQjmJ0CZAqr68tt6HnyD%2F%2BpauIAMPCrfIygfIycxNYxBNjrIFMmjDE893g%2FA%2BepyCFZAw%3D%3D&crl=c",
+            "paper_id": null,
+            "citations": 24,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.18805/ag.r-2215"
+          }
+        ],
+        "selected_papers_count": 6
+      }
+    },
+    {
+      "agent": "Domain Specialist",
+      "thought": "Executed domain",
+      "output": {
+        "domain": null,
+        "topics": [],
+        "query_analysis": {}
+      }
+    },
+    {
+      "agent": "Recency & Relevance Specialist",
+      "thought": "Executed recency",
+      "output": {
+        "scored_papers": [
+          {
+            "title": "Applications of artificial intelligence in agriculture: A review.",
+            "abstract": "… Although agricultural practice is broad, this research considers soil, crop, disease and … to agricultural production. It is paramount to review the application of AI to agriculture in respect to …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+            "paper_id": null,
+            "citations": 694,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "index": 1,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Artificial intelligence (AI) in agriculture",
+            "abstract": "… AI offers sweeping transformation with advanced approaches that will redefine the traditional pattern and limits of agriculture. AI will drive an agricultural revolution at a time when the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+            "paper_id": null,
+            "citations": 473,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/mitp.2020.2986121",
+            "index": 2,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Artificial intelligence in agriculture: benefits, challenges, and trends",
+            "abstract": "… were researched in [7]; big data in agriculture in [8]; and agriculture 4.0 in [9,10]. This work … application of AI in agriculture to alleviate problems in the seven main agriculture domains …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2076-3417/13/13/7405",
+            "paper_id": null,
+            "citations": 200,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/app13137405",
+            "index": 3,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Implementation of artificial intelligence in agriculture",
+            "abstract": "… crop establishing in the agricultural industry all benefit from artificial intelligence (AI)-based … Agricultural robotics are being developed in order to give high-value AI applications in the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+            "paper_id": null,
+            "citations": 153,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.47852/bonviewjcce2202174",
+            "index": 4,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Artificial intelligence in agriculture",
+            "abstract": "… The application of AI in agriculture has been widely considered as one of … of AI’s application in agronomic areas and progress in research labs. The review first presents two fields that AI …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+            "paper_id": null,
+            "citations": 127,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1201/9781003647423-7",
+            "index": 5,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Role of AI in Agriculture: Applications, Limitations and Challenges: A Review.",
+            "abstract": "… Recent advances in agriculture … AI based equipment that will change the phase of agriculture. Hence study was undertaken to review various research works based on AI in agriculture …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=02531496&AN=164698870&h=%2Fh%2Bq0uw0wsYL4bRVYqQjmJ0CZAqr68tt6HnyD%2F%2BpauIAMPCrfIygfIycxNYxBNjrIFMmjDE893g%2FA%2BepyCFZAw%3D%3D&crl=c",
+            "paper_id": null,
+            "citations": 24,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.18805/ag.r-2215",
+            "index": 6,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          }
+        ],
+        "top_papers": [
+          {
+            "title": "Applications of artificial intelligence in agriculture: A review.",
+            "abstract": "… Although agricultural practice is broad, this research considers soil, crop, disease and … to agricultural production. It is paramount to review the application of AI to agriculture in respect to …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.researchgate.net/profile/Amaral-Chibeba/post/How_can_AI_technology_to_enhance_the_agricultural_productivity/attachment/673bab5448c97052ce70ba57/AS%3A11431281291282145%401731963730424/download/Eli-Chukwu+%282019%29+Applications+of+AI+in+Agriculture.pdf",
+            "paper_id": null,
+            "citations": 694,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "index": 1,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Artificial intelligence (AI) in agriculture",
+            "abstract": "… AI offers sweeping transformation with advanced approaches that will redefine the traditional pattern and limits of agriculture. AI will drive an agricultural revolution at a time when the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/9098011/",
+            "paper_id": null,
+            "citations": 473,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/mitp.2020.2986121",
+            "index": 2,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Artificial intelligence in agriculture: benefits, challenges, and trends",
+            "abstract": "… were researched in [7]; big data in agriculture in [8]; and agriculture 4.0 in [9,10]. This work … application of AI in agriculture to alleviate problems in the seven main agriculture domains …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2076-3417/13/13/7405",
+            "paper_id": null,
+            "citations": 200,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/app13137405",
+            "index": 3,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Implementation of artificial intelligence in agriculture",
+            "abstract": "… crop establishing in the agricultural industry all benefit from artificial intelligence (AI)-based … Agricultural robotics are being developed in order to give high-value AI applications in the …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://scholar.archive.org/work/oif3w3c4ezbjvbrzv52f25frwe/access/wayback/https://ojs.bonviewpress.com/index.php/JCCE/article/download/174/173",
+            "paper_id": null,
+            "citations": 153,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.47852/bonviewjcce2202174",
+            "index": 4,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Artificial intelligence in agriculture",
+            "abstract": "… The application of AI in agriculture has been widely considered as one of … of AI’s application in agronomic areas and progress in research labs. The review first presents two fields that AI …",
+            "year": null,
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://iopscience.iop.org/article/10.1088/1742-6596/1693/1/012058/meta",
+            "paper_id": null,
+            "citations": 127,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1201/9781003647423-7",
+            "index": 5,
+            "recency_score": 3,
+            "relevance_score": 4,
+            "verdict": "❌ Outdated"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Insight Analyzer",
+      "thought": "Executed insight (parallel)",
+      "output": {
+        "insight": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99985, Requested 1501. Please try again in 21m23.904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Gap Detector",
+      "thought": "Executed gap (parallel)",
+      "output": {
+        "gaps": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99985, Requested 1571. Please try again in 22m24.384s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Trend Analyst",
+      "thought": "Executed trend (parallel)",
+      "output": {
+        "trends": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99985, Requested 1576. Please try again in 22m28.704s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Devil's Advocate",
+      "thought": "Executed critic",
+      "output": {
+        "critique": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99985, Requested 2006. Please try again in 28m40.224s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        },
+        "conflicts_detected": null
+      }
+    },
+    {
+      "agent": "Consensus Voter",
+      "thought": "Executed voter",
+      "output": {
+        "consensus": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99984, Requested 1071. Please try again in 15m11.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    },
+    {
+      "agent": "Confidence & Risk Assessor",
+      "thought": "Executed confidence",
+      "output": {
+        "confidence_assessment": {
+          "error": "Invalid JSON response",
+          "raw": "Error: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kpts2t3mfvqbzdkb4ajp2ewz` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99984, Requested 2026. Please try again in 28m56.639999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}"
+        }
+      }
+    }
+  ],
+  "run_id": "dfd3e918-eb8b-49eb-8b0d-3091e16c4d39",
+  "saved_at": "2026-04-24T20:51:07.727343Z"
+}

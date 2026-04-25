@@ -1,0 +1,3411 @@
+{
+  "query": "research on phishing detection system",
+  "query_decomposition": {
+    "sub_questions": [
+      "What are the most effective machine learning algorithms for phishing detection?",
+      "How does natural language processing improve phishing detection accuracy?",
+      "What are the limitations of current phishing detection systems?",
+      "How can deep learning techniques be applied to improve phishing detection?"
+    ],
+    "planner": {
+      "plan": [
+        "Conduct a literature review of existing phishing detection systems",
+        "Identify key features and techniques used in phishing detection",
+        "Analyze the performance of different machine learning algorithms in phishing detection",
+        "Examine the role of natural language processing in phishing detection",
+        "Investigate the use of deep learning techniques in phishing detection",
+        "Evaluate the effectiveness of phishing detection systems in real-world scenarios",
+        "Compare the results of different studies to identify trends and patterns"
+      ],
+      "retrieval_queries": [
+        "phishing detection using machine learning",
+        "natural language processing for phishing detection",
+        "deep learning techniques for phishing detection",
+        "evaluation of phishing detection systems",
+        "phishing detection in real-world scenarios"
+      ],
+      "sub_questions": [
+        "What are the most effective machine learning algorithms for phishing detection?",
+        "How does natural language processing improve phishing detection accuracy?",
+        "What are the limitations of current phishing detection systems?",
+        "How can deep learning techniques be applied to improve phishing detection?"
+      ],
+      "vague_or_ambiguous": true,
+      "suggested_refinement_prompt": "Please specify the type of phishing detection system you are interested in (e.g. email, website, SMS)"
+    }
+  },
+  "gap_agent_output": {
+    "gaps": [
+      {
+        "gap": "Lack of Explainability in Phishing Detection Systems",
+        "impact": "Difficulty in understanding the decision-making process of phishing detection systems",
+        "evidence_paper_ids": [
+          "W:W4294691140"
+        ]
+      },
+      {
+        "gap": "Limited Robustness of Phishing Detection Systems to New Attacks",
+        "impact": "Phishing detection systems may not be effective against new and evolving phishing attacks",
+        "evidence_paper_ids": [
+          "W:W3003583062"
+        ]
+      },
+      {
+        "gap": "Need for Improved User Education and Awareness",
+        "impact": "Users may not be able to recognize phishing attacks, even with the presence of detection systems",
+        "evidence_paper_ids": [
+          "W:W2071869991"
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "opportunity": "Development of Explainable Phishing Detection Systems",
+        "why_now": "The increasing use of AI and machine learning in phishing detection systems requires explainability to build trust",
+        "linked_gaps": [
+          "Lack of Explainability in Phishing Detection Systems"
+        ]
+      },
+      {
+        "opportunity": "Improvement of Phishing Detection Systems using Deep Learning Techniques",
+        "why_now": "The evolving nature of phishing attacks requires the use of advanced techniques such as deep learning",
+        "linked_gaps": [
+          "Limited Robustness of Phishing Detection Systems to New Attacks"
+        ]
+      },
+      {
+        "opportunity": "Enhancement of User Education and Awareness Programs",
+        "why_now": "The increasing number of phishing attacks requires users to be educated and aware of the risks",
+        "linked_gaps": [
+          "Need for Improved User Education and Awareness"
+        ]
+      }
+    ],
+    "missing_links": [
+      {
+        "missing_connection": "Integration of Explainability and Deep Learning in Phishing Detection Systems",
+        "why_it_matters": "The combination of explainability and deep learning can improve the effectiveness and trustworthiness of phishing detection systems",
+        "candidate_paper_ids": [
+          "W:W4294691140",
+          "W:W4402925642"
+        ]
+      },
+      {
+        "missing_connection": "Development of Benchmarking Frameworks for Phishing Detection Systems",
+        "why_it_matters": "Benchmarking frameworks can help evaluate and compare the performance of different phishing detection systems",
+        "candidate_paper_ids": [
+          "W:W3003583062"
+        ]
+      },
+      {
+        "missing_connection": "Investigation of the Impact of User Education on Phishing Detection",
+        "why_it_matters": "Understanding the impact of user education on phishing detection can help improve the overall effectiveness of phishing detection systems",
+        "candidate_paper_ids": [
+          "W:W2071869991"
+        ]
+      }
+    ]
+  },
+  "trend_agent_output": {
+    "trends": [
+      {
+        "trend": "Machine Learning for Phishing Detection",
+        "evidence_paper_ids": [
+          "W:W3207470445",
+          "gen:1bd69a15eede",
+          "gen:5793ccee37d3"
+        ],
+        "evidence_titles": [
+          "Detecting phishing websites using machine learning technique",
+          "Phishing detection system through hybrid machine learning based on URL",
+          "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN"
+        ]
+      },
+      {
+        "trend": "Deep Learning Techniques for Phishing Email Detection",
+        "evidence_paper_ids": [
+          "W:W4402925642"
+        ],
+        "evidence_titles": [
+          "A Systematic Review of Deep Learning Techniques for Phishing Email Detection"
+        ]
+      },
+      {
+        "trend": "Explainable Artificial Intelligence in Phishing Detection",
+        "evidence_paper_ids": [
+          "W:W4294691140"
+        ],
+        "evidence_titles": [
+          "Explainable Artificial Intelligence in CyberSecurity: A Survey"
+        ]
+      }
+    ],
+    "predictions": [
+      {
+        "prediction": "Increased Adoption of Hybrid Machine Learning Models for Phishing Detection",
+        "rationale": "The effectiveness of hybrid machine learning models in detecting phishing attacks, as seen in recent studies, is likely to lead to increased adoption in the industry.",
+        "evidence_paper_ids": [
+          "gen:1bd69a15eede",
+          "W:W3207470445"
+        ]
+      },
+      {
+        "prediction": "Growing Importance of Explainability in Phishing Detection Systems",
+        "rationale": "As phishing detection systems become more complex, the need for explainability and transparency in their decision-making processes will become increasingly important.",
+        "evidence_paper_ids": [
+          "W:W4294691140"
+        ]
+      }
+    ],
+    "signals_to_watch": [
+      "Advances in Natural Language Processing (NLP) for phishing detection",
+      "Increased focus on user education and awareness in preventing phishing attacks",
+      "Growing use of cloud-based services for phishing detection and prevention"
+    ]
+  },
+  "evidence_guarantee": "v2_traceability",
+  "evidence_status": "OK",
+  "plan": {
+    "plan": [
+      "Conduct a literature review of existing phishing detection systems",
+      "Identify key features and techniques used in phishing detection",
+      "Analyze the performance of different machine learning algorithms in phishing detection",
+      "Examine the role of natural language processing in phishing detection",
+      "Investigate the use of deep learning techniques in phishing detection",
+      "Evaluate the effectiveness of phishing detection systems in real-world scenarios",
+      "Compare the results of different studies to identify trends and patterns"
+    ],
+    "retrieval_queries": [
+      "phishing detection using machine learning",
+      "natural language processing for phishing detection",
+      "deep learning techniques for phishing detection",
+      "evaluation of phishing detection systems",
+      "phishing detection in real-world scenarios"
+    ],
+    "sub_questions": [
+      "What are the most effective machine learning algorithms for phishing detection?",
+      "How does natural language processing improve phishing detection accuracy?",
+      "What are the limitations of current phishing detection systems?",
+      "How can deep learning techniques be applied to improve phishing detection?"
+    ],
+    "vague_or_ambiguous": true,
+    "suggested_refinement_prompt": "Please specify the type of phishing detection system you are interested in (e.g. email, website, SMS)"
+  },
+  "insight": {
+    "query_understanding": {
+      "interpreted_intent": "Developing a system to identify and prevent phishing attacks",
+      "key_focus_areas": [
+        "Machine Learning Algorithms",
+        "Network Security",
+        "Threat Intelligence"
+      ]
+    },
+    "per_paper": [
+      {
+        "paper_id": "W:W4402925642",
+        "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+        "problem": "Phishing email detection",
+        "method": "Deep learning techniques",
+        "dataset": "",
+        "experimental_setup": "",
+        "results": "",
+        "limitations": "Limited to email phishing"
+      },
+      {
+        "paper_id": "gen:12e7d7919ae5",
+        "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+        "problem": "URL phishing detection",
+        "method": "SVM and similarity index",
+        "dataset": "",
+        "experimental_setup": "",
+        "results": "",
+        "limitations": "Limited to URL phishing"
+      },
+      {
+        "paper_id": "gen:5793ccee37d3",
+        "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+        "problem": "Phishing detection",
+        "method": "Deep learning (CNN, LSTM, LSTM-CNN)",
+        "dataset": "",
+        "experimental_setup": "",
+        "results": "",
+        "limitations": "Limited to specific deep learning models"
+      }
+    ],
+    "cross_paper": {
+      "agreements": [
+        {
+          "statement": "Machine learning and deep learning techniques are effective for phishing detection",
+          "paper_ids": [
+            "W:W4402925642",
+            "gen:12e7d7919ae5",
+            "gen:5793ccee37d3"
+          ]
+        }
+      ],
+      "contradictions": [],
+      "trends": [
+        {
+          "note": "Increasing use of deep learning techniques for phishing detection",
+          "paper_ids": [
+            "W:W4402925642",
+            "gen:5793ccee37d3"
+          ]
+        }
+      ],
+      "gaps": []
+    },
+    "strong_insights": [
+      {
+        "insight": "Deep learning techniques can improve phishing detection accuracy",
+        "paper_ids": [
+          "W:W4402925642",
+          "gen:5793ccee37d3"
+        ],
+        "strength": "high"
+      }
+    ],
+    "weak_or_preliminary": [],
+    "unknowns": [
+      "Effectiveness of natural language processing for phishing detection"
+    ],
+    "evidence_strength": {
+      "level": "medium",
+      "justification": "Limited number of papers with specific results"
+    },
+    "final_answer": "Insufficient evidence found",
+    "confidence_reasoning": {
+      "num_papers_used": 3,
+      "consistency": "Some consistency in findings",
+      "limitations": "Limited scope of papers and lack of comprehensive results"
+    },
+    "paper_analysis": [
+      {
+        "paper_id": "W:W4402925642",
+        "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+        "problem": "Phishing email detection",
+        "method": "Deep learning techniques",
+        "dataset": "",
+        "experimental_setup": "",
+        "results": "",
+        "limitations": "Limited to email phishing"
+      },
+      {
+        "paper_id": "gen:12e7d7919ae5",
+        "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+        "problem": "URL phishing detection",
+        "method": "SVM and similarity index",
+        "dataset": "",
+        "experimental_setup": "",
+        "results": "",
+        "limitations": "Limited to URL phishing"
+      },
+      {
+        "paper_id": "gen:5793ccee37d3",
+        "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+        "problem": "Phishing detection",
+        "method": "Deep learning (CNN, LSTM, LSTM-CNN)",
+        "dataset": "",
+        "experimental_setup": "",
+        "results": "",
+        "limitations": "Limited to specific deep learning models"
+      }
+    ],
+    "agreements": [
+      "Machine learning and deep learning techniques are effective for phishing detection"
+    ]
+  },
+  "final_answer": "While machine learning and deep learning techniques are effective for phishing detection, further research is needed to address the gaps and improve the overall effectiveness of phishing detection systems.",
+  "synthesis": {
+    "executive_summary": "Insufficient evidence found",
+    "key_findings": [
+      {
+        "text": "Machine learning and deep learning techniques are effective for phishing detection",
+        "paper_ids": [
+          "W:W4402925642",
+          "gen:12e7d7919ae5",
+          "gen:5793ccee37d3"
+        ]
+      }
+    ],
+    "comparative_analysis": [
+      {
+        "text": "Deep learning techniques can improve phishing detection accuracy",
+        "paper_ids": [
+          "W:W4402925642",
+          "gen:5793ccee37d3"
+        ]
+      }
+    ],
+    "contradictions": [],
+    "research_gaps": [
+      {
+        "text": "Lack of Explainability in Phishing Detection Systems",
+        "paper_ids": [
+          "W:W4294691140"
+        ]
+      },
+      {
+        "text": "Limited Robustness of Phishing Detection Systems to New Attacks",
+        "paper_ids": [
+          "W:W3003583062"
+        ]
+      },
+      {
+        "text": "Need for Improved User Education and Awareness",
+        "paper_ids": [
+          "W:W2071869991"
+        ]
+      }
+    ],
+    "risks": [
+      {
+        "text": "Phishing detection systems may not be effective against new and evolving phishing attacks",
+        "paper_ids": [
+          "W:W3003583062"
+        ]
+      },
+      {
+        "text": "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability",
+        "paper_ids": [
+          "W:W4294691140"
+        ]
+      }
+    ],
+    "future_directions": [
+      {
+        "text": "Development of Explainable Phishing Detection Systems",
+        "paper_ids": [
+          "W:W4294691140"
+        ]
+      },
+      {
+        "text": "Improvement of Phishing Detection Systems using Deep Learning Techniques",
+        "paper_ids": [
+          "W:W4402925642",
+          "gen:5793ccee37d3"
+        ]
+      }
+    ],
+    "conclusion": "Further research is needed to address the gaps and improve the overall effectiveness of phishing detection systems."
+  },
+  "confidence": 0.67,
+  "confidence_assessment": {
+    "issues_detected": [
+      "Limited scope of papers",
+      "Lack of comprehensive results"
+    ],
+    "risk_flags": [
+      "Phishing detection systems may not be effective against new and evolving phishing attacks",
+      "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability"
+    ],
+    "confidence_score": 65,
+    "confidence_level": "MEDIUM",
+    "confidence_justification": "The confidence score is based on the deterministic engine's score of 69.18, adjusted downwards by 4 points due to the limited scope of papers and lack of comprehensive results (paper_ids: W:W4402925642, gen:12e7d7919ae5, gen:5793ccee37d3).",
+    "revised_conclusion": "While machine learning and deep learning techniques are effective for phishing detection, further research is needed to address the gaps and improve the overall effectiveness of phishing detection systems.",
+    "answer_defense": {
+      "how_to_verify": [
+        "Reviewing the papers cited in the consensus and critic sections",
+        "Analyzing the results of the deterministic engine"
+      ],
+      "where_system_might_be_wrong": [
+        "Overreliance on limited datasets",
+        "Lack of consideration for new and evolving phishing attacks"
+      ],
+      "confidence_risks": [
+        "Phishing detection systems may not be effective against new and evolving phishing attacks",
+        "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability"
+      ]
+    },
+    "influential_paper_ids": [
+      "W:W4402925642",
+      "gen:12e7d7919ae5",
+      "gen:5793ccee37d3",
+      "W:W4294691140",
+      "W:W3003583062"
+    ]
+  },
+  "confidence_breakdown": {
+    "deterministic": {
+      "confidence_score": 69.18,
+      "confidence_breakdown": {
+        "number_of_papers": 10,
+        "avg_citations": 215.5,
+        "agreement_score": 0.45,
+        "recency_score": 0.51,
+        "evidence_strength_proxy": 0.55,
+        "citation_norm_component": 1.0,
+        "contrast_penalty_applied": 0
+      }
+    },
+    "llm": {
+      "issues_detected": [
+        "Limited scope of papers",
+        "Lack of comprehensive results"
+      ],
+      "risk_flags": [
+        "Phishing detection systems may not be effective against new and evolving phishing attacks",
+        "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability"
+      ],
+      "confidence_level": "MEDIUM",
+      "confidence_justification": "The confidence score is based on the deterministic engine's score of 69.18, adjusted downwards by 4 points due to the limited scope of papers and lack of comprehensive results (paper_ids: W:W4402925642, gen:12e7d7919ae5, gen:5793ccee37d3).",
+      "revised_conclusion": "While machine learning and deep learning techniques are effective for phishing detection, further research is needed to address the gaps and improve the overall effectiveness of phishing detection systems.",
+      "answer_defense": {
+        "how_to_verify": [
+          "Reviewing the papers cited in the consensus and critic sections",
+          "Analyzing the results of the deterministic engine"
+        ],
+        "where_system_might_be_wrong": [
+          "Overreliance on limited datasets",
+          "Lack of consideration for new and evolving phishing attacks"
+        ],
+        "confidence_risks": [
+          "Phishing detection systems may not be effective against new and evolving phishing attacks",
+          "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability"
+        ]
+      }
+    },
+    "blended_0_100": 66.88
+  },
+  "deterministic_confidence": {
+    "confidence_score": 69.18,
+    "confidence_breakdown": {
+      "number_of_papers": 10,
+      "avg_citations": 215.5,
+      "agreement_score": 0.45,
+      "recency_score": 0.51,
+      "evidence_strength_proxy": 0.55,
+      "citation_norm_component": 1.0,
+      "contrast_penalty_applied": 0
+    }
+  },
+  "risk": "Medium",
+  "gaps": [
+    "Lack of Explainability in Phishing Detection Systems",
+    "Limited Robustness of Phishing Detection Systems to New Attacks",
+    "Need for Improved User Education and Awareness"
+  ],
+  "trends": [
+    "Development of Explainable Phishing Detection Systems",
+    "Improvement of Phishing Detection Systems using Deep Learning Techniques"
+  ],
+  "critique": {
+    "weaknesses": [
+      {
+        "text": "Limited scope of papers, with most focusing on specific types of phishing attacks, such as email or URL phishing",
+        "paper_ids": [
+          "W:W4402925642",
+          "gen:12e7d7919ae5",
+          "gen:5793ccee37d3"
+        ]
+      },
+      {
+        "text": "Lack of comprehensive results and limited datasets used in the studies",
+        "paper_ids": [
+          "W:W4402925642",
+          "gen:12e7d7919ae5",
+          "gen:5793ccee37d3"
+        ]
+      }
+    ],
+    "conflicts": [],
+    "missing_evidence": [
+      {
+        "text": "Effectiveness of natural language processing for phishing detection"
+      },
+      {
+        "text": "Impact of user education on phishing detection"
+      }
+    ],
+    "risks": [
+      {
+        "text": "Phishing detection systems may not be effective against new and evolving phishing attacks",
+        "paper_ids": [
+          "W:W3003583062"
+        ]
+      },
+      {
+        "text": "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability",
+        "paper_ids": [
+          "W:W4294691140"
+        ]
+      }
+    ],
+    "readable_summary": "The current research on phishing detection systems has several weaknesses, including limited scope and lack of comprehensive results. There are also risks associated with the effectiveness of these systems against new attacks and the need for explainability. Further research is needed to address these gaps and improve the overall effectiveness of phishing detection systems."
+  },
+  "critique_summary": "The current research on phishing detection systems has several weaknesses, including limited scope and lack of comprehensive results. There are also risks associated with the effectiveness of these systems against new attacks and the need for explainability. Further research is needed to address these gaps and improve the overall effectiveness of phishing detection systems.",
+  "risk_flags": [
+    "Phishing detection systems may not be effective against new and evolving phishing attacks",
+    "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability"
+  ],
+  "answer_defense": {
+    "how_to_verify": [
+      "Reviewing the papers cited in the consensus and critic sections",
+      "Analyzing the results of the deterministic engine"
+    ],
+    "where_system_might_be_wrong": [
+      "Overreliance on limited datasets",
+      "Lack of consideration for new and evolving phishing attacks"
+    ],
+    "confidence_risks": [
+      "Phishing detection systems may not be effective against new and evolving phishing attacks",
+      "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability"
+    ]
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "W:W4294691140",
+        "label": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+        "year": 2022,
+        "source": "OpenAlex",
+        "group": "Security",
+        "url": "https://doi.org/10.1109/access.2022.3204171",
+        "citations": 247
+      },
+      {
+        "id": "gen:12e7d7919ae5",
+        "label": "A novel lightweight URL phishing detection system using SVM and similarity index",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "Security",
+        "url": "https://link.springer.com/article/10.1186/s13673-017-0098-1",
+        "citations": 180
+      },
+      {
+        "id": "W:W2071869991",
+        "label": "Teaching Johnny not to fall for phish",
+        "year": 2010,
+        "source": "OpenAlex",
+        "group": "Security",
+        "url": "https://doi.org/10.1145/1754393.1754396",
+        "citations": 391
+      },
+      {
+        "id": "W:W4402925642",
+        "label": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+        "year": 2024,
+        "source": "OpenAlex",
+        "group": "Security",
+        "url": "https://doi.org/10.3390/electronics13193823",
+        "citations": 26
+      },
+      {
+        "id": "gen:275daf00c834",
+        "label": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "Security",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441",
+        "citations": 326
+      },
+      {
+        "id": "gen:1bd69a15eede",
+        "label": "Phishing detection system through hybrid machine learning based on URL",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "Security",
+        "url": "https://ieeexplore.ieee.org/abstract/document/10058201/",
+        "citations": 311
+      },
+      {
+        "id": "W:W3207470445",
+        "label": "Detecting phishing websites using machine learning technique",
+        "year": 2021,
+        "source": "OpenAlex",
+        "group": "Security",
+        "url": "https://doi.org/10.1371/journal.pone.0258361",
+        "citations": 107
+      },
+      {
+        "id": "gen:eb5652437bc0",
+        "label": "Jail-Phish: An improved search engine based phishing detection system",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "Security",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0167404818304280",
+        "citations": 139
+      },
+      {
+        "id": "W:W3003583062",
+        "label": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+        "year": 2020,
+        "source": "OpenAlex",
+        "group": "Security",
+        "url": "https://doi.org/10.1109/access.2020.2969780",
+        "citations": 137
+      },
+      {
+        "id": "gen:5793ccee37d3",
+        "label": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+        "year": null,
+        "source": "Web (Google Scholar via SerpAPI)",
+        "group": "Security",
+        "url": "https://www.mdpi.com/2079-9292/12/1/232",
+        "citations": 291
+      }
+    ],
+    "edges": [
+      {
+        "source": "W:W4294691140",
+        "target": "W:W4402925642",
+        "weight": 1.512,
+        "cosine": 0.126
+      },
+      {
+        "source": "W:W4294691140",
+        "target": "W:W2071869991",
+        "weight": 1.17,
+        "cosine": 0.0975
+      },
+      {
+        "source": "W:W4294691140",
+        "target": "W:W3003583062",
+        "weight": 1.106,
+        "cosine": 0.0922
+      },
+      {
+        "source": "W:W4294691140",
+        "target": "W:W3207470445",
+        "weight": 0.985,
+        "cosine": 0.0821
+      },
+      {
+        "source": "W:W4294691140",
+        "target": "gen:1bd69a15eede",
+        "weight": 0.966,
+        "cosine": 0.0805
+      },
+      {
+        "source": "gen:12e7d7919ae5",
+        "target": "gen:5793ccee37d3",
+        "weight": 1.405,
+        "cosine": 0.1171
+      },
+      {
+        "source": "gen:12e7d7919ae5",
+        "target": "gen:eb5652437bc0",
+        "weight": 1.156,
+        "cosine": 0.0963
+      },
+      {
+        "source": "gen:12e7d7919ae5",
+        "target": "gen:1bd69a15eede",
+        "weight": 1.01,
+        "cosine": 0.0842
+      },
+      {
+        "source": "W:W2071869991",
+        "target": "W:W4402925642",
+        "weight": 1.681,
+        "cosine": 0.1401
+      },
+      {
+        "source": "W:W2071869991",
+        "target": "W:W3207470445",
+        "weight": 1.68,
+        "cosine": 0.14
+      },
+      {
+        "source": "W:W2071869991",
+        "target": "W:W3003583062",
+        "weight": 1.611,
+        "cosine": 0.1343
+      },
+      {
+        "source": "W:W2071869991",
+        "target": "gen:5793ccee37d3",
+        "weight": 1.29,
+        "cosine": 0.1075
+      },
+      {
+        "source": "W:W2071869991",
+        "target": "gen:eb5652437bc0",
+        "weight": 1.081,
+        "cosine": 0.0901
+      },
+      {
+        "source": "W:W4402925642",
+        "target": "W:W3003583062",
+        "weight": 1.552,
+        "cosine": 0.1293
+      },
+      {
+        "source": "W:W4402925642",
+        "target": "gen:5793ccee37d3",
+        "weight": 1.35,
+        "cosine": 0.1125
+      },
+      {
+        "source": "W:W4402925642",
+        "target": "W:W3207470445",
+        "weight": 1.266,
+        "cosine": 0.1055
+      },
+      {
+        "source": "W:W4402925642",
+        "target": "gen:eb5652437bc0",
+        "weight": 1.158,
+        "cosine": 0.0965
+      },
+      {
+        "source": "gen:275daf00c834",
+        "target": "gen:5793ccee37d3",
+        "weight": 2.161,
+        "cosine": 0.1801
+      },
+      {
+        "source": "gen:275daf00c834",
+        "target": "W:W3207470445",
+        "weight": 1.234,
+        "cosine": 0.1028
+      },
+      {
+        "source": "gen:275daf00c834",
+        "target": "gen:eb5652437bc0",
+        "weight": 1.143,
+        "cosine": 0.0953
+      },
+      {
+        "source": "gen:1bd69a15eede",
+        "target": "W:W3207470445",
+        "weight": 1.569,
+        "cosine": 0.1308
+      },
+      {
+        "source": "gen:1bd69a15eede",
+        "target": "gen:5793ccee37d3",
+        "weight": 1.512,
+        "cosine": 0.126
+      },
+      {
+        "source": "W:W3207470445",
+        "target": "gen:5793ccee37d3",
+        "weight": 1.602,
+        "cosine": 0.1335
+      },
+      {
+        "source": "W:W3207470445",
+        "target": "W:W3003583062",
+        "weight": 1.388,
+        "cosine": 0.1157
+      },
+      {
+        "source": "gen:eb5652437bc0",
+        "target": "W:W3003583062",
+        "weight": 1.222,
+        "cosine": 0.1018
+      },
+      {
+        "source": "gen:eb5652437bc0",
+        "target": "gen:5793ccee37d3",
+        "weight": 1.121,
+        "cosine": 0.0934
+      },
+      {
+        "source": "W:W3003583062",
+        "target": "gen:5793ccee37d3",
+        "weight": 1.214,
+        "cosine": 0.1012
+      }
+    ],
+    "edge_type": "tfidf_cosine"
+  },
+  "papers_analyzed": 10,
+  "selection": {
+    "selected_papers": [
+      {
+        "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+        "year": 2022,
+        "citationCount": 247,
+        "citation_velocity": 49.4,
+        "relevance_score": 0.4613,
+        "selection_reason": "Selected for composite score 0.461 (semantic 0.09, citations 0.72, recency 0.70, venue 0.95) with diversity filter.",
+        "paper_id": "W:W4294691140"
+      },
+      {
+        "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+        "year": null,
+        "citationCount": 180,
+        "citation_velocity": 0.0,
+        "relevance_score": 0.4219,
+        "selection_reason": "Selected for composite score 0.422 (semantic 0.14, citations 0.69, recency 0.40, venue 0.95) with diversity filter.",
+        "paper_id": "gen:12e7d7919ae5"
+      },
+      {
+        "title": "Teaching Johnny not to fall for phish",
+        "year": 2010,
+        "citationCount": 391,
+        "citation_velocity": 23.0,
+        "relevance_score": 0.4023,
+        "selection_reason": "Selected for composite score 0.402 (semantic 0.10, citations 0.77, recency 0.35, venue 0.95) with diversity filter.",
+        "paper_id": "W:W2071869991"
+      },
+      {
+        "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+        "year": 2024,
+        "citationCount": 26,
+        "citation_velocity": 8.6667,
+        "relevance_score": 0.4394,
+        "selection_reason": "Selected for composite score 0.439 (semantic 0.09, citations 0.46, recency 0.85, venue 0.95) with diversity filter.",
+        "paper_id": "W:W4402925642"
+      },
+      {
+        "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+        "year": null,
+        "citationCount": 326,
+        "citation_velocity": 0.0,
+        "relevance_score": 0.4323,
+        "selection_reason": "Selected for composite score 0.432 (semantic 0.13, citations 0.75, recency 0.40, venue 0.95) with diversity filter.",
+        "paper_id": "gen:275daf00c834"
+      },
+      {
+        "title": "Phishing detection system through hybrid machine learning based on URL",
+        "year": null,
+        "citationCount": 311,
+        "citation_velocity": 0.0,
+        "relevance_score": 0.4305,
+        "selection_reason": "Selected for composite score 0.430 (semantic 0.14, citations 0.75, recency 0.40, venue 0.95) with diversity filter.",
+        "paper_id": "gen:1bd69a15eede"
+      },
+      {
+        "title": "Detecting phishing websites using machine learning technique",
+        "year": 2021,
+        "citationCount": 107,
+        "citation_velocity": 17.8333,
+        "relevance_score": 0.4459,
+        "selection_reason": "Selected for composite score 0.446 (semantic 0.10, citations 0.63, recency 0.70, venue 0.95) with diversity filter.",
+        "paper_id": "W:W3207470445"
+      },
+      {
+        "title": "Jail-Phish: An improved search engine based phishing detection system",
+        "year": null,
+        "citationCount": 139,
+        "citation_velocity": 0.0,
+        "relevance_score": 0.4125,
+        "selection_reason": "Selected for composite score 0.412 (semantic 0.13, citations 0.66, recency 0.40, venue 0.95) with diversity filter.",
+        "paper_id": "gen:eb5652437bc0"
+      },
+      {
+        "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+        "year": 2020,
+        "citationCount": 137,
+        "citation_velocity": 19.5714,
+        "relevance_score": 0.4152,
+        "selection_reason": "Selected for composite score 0.415 (semantic 0.10, citations 0.66, recency 0.50, venue 0.95) with diversity filter.",
+        "paper_id": "W:W3003583062"
+      },
+      {
+        "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+        "year": null,
+        "citationCount": 291,
+        "citation_velocity": 0.0,
+        "relevance_score": 0.4535,
+        "selection_reason": "Selected for composite score 0.454 (semantic 0.19, citations 0.74, recency 0.40, venue 0.95) with diversity filter.",
+        "paper_id": "gen:5793ccee37d3"
+      }
+    ],
+    "selection_strategy": "The deterministic re-rank and MMR strategy is defensible because it ensures a balance between relevance and diversity in the selected papers. This approach allows for the retrieval of high-quality papers that are closely related to the query on phishing detection systems, while also providing a diverse range of perspectives and approaches. The use of MMR (Maximal Marginal Relevance) helps to avoid redundancy and promotes a more comprehensive understanding of the topic.",
+    "per_paper_receipt": [
+      {
+        "paper_id": "W:W4294691140",
+        "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+        "score_components": {
+          "semantic_similarity": 0.0878,
+          "citation_score": 0.7237,
+          "recency_score": 0.7,
+          "keyword_overlap": 0.0328,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4613
+        },
+        "selection_explanation": "Selected for composite score 0.461 (semantic 0.09, citations 0.72, recency 0.70, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "gen:12e7d7919ae5",
+        "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+        "score_components": {
+          "semantic_similarity": 0.1404,
+          "citation_score": 0.691,
+          "recency_score": 0.4,
+          "keyword_overlap": 0.12,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4219
+        },
+        "selection_explanation": "Selected for composite score 0.422 (semantic 0.14, citations 0.69, recency 0.40, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "W:W2071869991",
+        "title": "Teaching Johnny not to fall for phish",
+        "score_components": {
+          "semantic_similarity": 0.0954,
+          "citation_score": 0.7672,
+          "recency_score": 0.35,
+          "keyword_overlap": 0.0303,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4023
+        },
+        "selection_explanation": "Selected for composite score 0.402 (semantic 0.10, citations 0.77, recency 0.35, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "W:W4402925642",
+        "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+        "score_components": {
+          "semantic_similarity": 0.0929,
+          "citation_score": 0.4594,
+          "recency_score": 0.85,
+          "keyword_overlap": 0.0252,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4394
+        },
+        "selection_explanation": "Selected for composite score 0.439 (semantic 0.09, citations 0.46, recency 0.85, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "gen:275daf00c834",
+        "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+        "score_components": {
+          "semantic_similarity": 0.1315,
+          "citation_score": 0.7506,
+          "recency_score": 0.4,
+          "keyword_overlap": 0.1364,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4323
+        },
+        "selection_explanation": "Selected for composite score 0.432 (semantic 0.13, citations 0.75, recency 0.40, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "gen:1bd69a15eede",
+        "title": "Phishing detection system through hybrid machine learning based on URL",
+        "score_components": {
+          "semantic_similarity": 0.1383,
+          "citation_score": 0.7461,
+          "recency_score": 0.4,
+          "keyword_overlap": 0.1034,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4305
+        },
+        "selection_explanation": "Selected for composite score 0.430 (semantic 0.14, citations 0.75, recency 0.40, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "W:W3207470445",
+        "title": "Detecting phishing websites using machine learning technique",
+        "score_components": {
+          "semantic_similarity": 0.0955,
+          "citation_score": 0.6329,
+          "recency_score": 0.7,
+          "keyword_overlap": 0.0339,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4459
+        },
+        "selection_explanation": "Selected for composite score 0.446 (semantic 0.10, citations 0.63, recency 0.70, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "gen:eb5652437bc0",
+        "title": "Jail-Phish: An improved search engine based phishing detection system",
+        "score_components": {
+          "semantic_similarity": 0.1323,
+          "citation_score": 0.6627,
+          "recency_score": 0.4,
+          "keyword_overlap": 0.1111,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4125
+        },
+        "selection_explanation": "Selected for composite score 0.412 (semantic 0.13, citations 0.66, recency 0.40, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "W:W3003583062",
+        "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+        "score_components": {
+          "semantic_similarity": 0.1047,
+          "citation_score": 0.6611,
+          "recency_score": 0.5,
+          "keyword_overlap": 0.0385,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4152
+        },
+        "selection_explanation": "Selected for composite score 0.415 (semantic 0.10, citations 0.66, recency 0.50, venue 0.95) with diversity filter."
+      },
+      {
+        "paper_id": "gen:5793ccee37d3",
+        "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+        "score_components": {
+          "semantic_similarity": 0.1943,
+          "citation_score": 0.7398,
+          "recency_score": 0.4,
+          "keyword_overlap": 0.15,
+          "venue_quality_score": 0.95,
+          "total_score": 0.4535
+        },
+        "selection_explanation": "Selected for composite score 0.454 (semantic 0.19, citations 0.74, recency 0.40, venue 0.95) with diversity filter."
+      }
+    ]
+  },
+  "retrieval_receipts": [
+    {
+      "paper_id": "W:W4294691140",
+      "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+      "score_components": {
+        "semantic_similarity": 0.0878,
+        "citation_score": 0.7237,
+        "recency_score": 0.7,
+        "keyword_overlap": 0.0328,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4613
+      },
+      "selection_explanation": "Selected for composite score 0.461 (semantic 0.09, citations 0.72, recency 0.70, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "gen:12e7d7919ae5",
+      "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+      "score_components": {
+        "semantic_similarity": 0.1404,
+        "citation_score": 0.691,
+        "recency_score": 0.4,
+        "keyword_overlap": 0.12,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4219
+      },
+      "selection_explanation": "Selected for composite score 0.422 (semantic 0.14, citations 0.69, recency 0.40, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "W:W2071869991",
+      "title": "Teaching Johnny not to fall for phish",
+      "score_components": {
+        "semantic_similarity": 0.0954,
+        "citation_score": 0.7672,
+        "recency_score": 0.35,
+        "keyword_overlap": 0.0303,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4023
+      },
+      "selection_explanation": "Selected for composite score 0.402 (semantic 0.10, citations 0.77, recency 0.35, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "W:W4402925642",
+      "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+      "score_components": {
+        "semantic_similarity": 0.0929,
+        "citation_score": 0.4594,
+        "recency_score": 0.85,
+        "keyword_overlap": 0.0252,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4394
+      },
+      "selection_explanation": "Selected for composite score 0.439 (semantic 0.09, citations 0.46, recency 0.85, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "gen:275daf00c834",
+      "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+      "score_components": {
+        "semantic_similarity": 0.1315,
+        "citation_score": 0.7506,
+        "recency_score": 0.4,
+        "keyword_overlap": 0.1364,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4323
+      },
+      "selection_explanation": "Selected for composite score 0.432 (semantic 0.13, citations 0.75, recency 0.40, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "gen:1bd69a15eede",
+      "title": "Phishing detection system through hybrid machine learning based on URL",
+      "score_components": {
+        "semantic_similarity": 0.1383,
+        "citation_score": 0.7461,
+        "recency_score": 0.4,
+        "keyword_overlap": 0.1034,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4305
+      },
+      "selection_explanation": "Selected for composite score 0.430 (semantic 0.14, citations 0.75, recency 0.40, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "W:W3207470445",
+      "title": "Detecting phishing websites using machine learning technique",
+      "score_components": {
+        "semantic_similarity": 0.0955,
+        "citation_score": 0.6329,
+        "recency_score": 0.7,
+        "keyword_overlap": 0.0339,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4459
+      },
+      "selection_explanation": "Selected for composite score 0.446 (semantic 0.10, citations 0.63, recency 0.70, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "gen:eb5652437bc0",
+      "title": "Jail-Phish: An improved search engine based phishing detection system",
+      "score_components": {
+        "semantic_similarity": 0.1323,
+        "citation_score": 0.6627,
+        "recency_score": 0.4,
+        "keyword_overlap": 0.1111,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4125
+      },
+      "selection_explanation": "Selected for composite score 0.412 (semantic 0.13, citations 0.66, recency 0.40, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "W:W3003583062",
+      "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+      "score_components": {
+        "semantic_similarity": 0.1047,
+        "citation_score": 0.6611,
+        "recency_score": 0.5,
+        "keyword_overlap": 0.0385,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4152
+      },
+      "selection_explanation": "Selected for composite score 0.415 (semantic 0.10, citations 0.66, recency 0.50, venue 0.95) with diversity filter."
+    },
+    {
+      "paper_id": "gen:5793ccee37d3",
+      "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+      "score_components": {
+        "semantic_similarity": 0.1943,
+        "citation_score": 0.7398,
+        "recency_score": 0.4,
+        "keyword_overlap": 0.15,
+        "venue_quality_score": 0.95,
+        "total_score": 0.4535
+      },
+      "selection_explanation": "Selected for composite score 0.454 (semantic 0.19, citations 0.74, recency 0.40, venue 0.95) with diversity filter."
+    }
+  ],
+  "evidence_table": [
+    {
+      "paper_id": "W:W4294691140",
+      "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+      "year": 2022,
+      "citations": 247,
+      "url": "https://doi.org/10.1109/access.2022.3204171"
+    },
+    {
+      "paper_id": "gen:12e7d7919ae5",
+      "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+      "year": null,
+      "citations": 180,
+      "url": "https://link.springer.com/article/10.1186/s13673-017-0098-1"
+    },
+    {
+      "paper_id": "W:W2071869991",
+      "title": "Teaching Johnny not to fall for phish",
+      "year": 2010,
+      "citations": 391,
+      "url": "https://doi.org/10.1145/1754393.1754396"
+    },
+    {
+      "paper_id": "W:W4402925642",
+      "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+      "year": 2024,
+      "citations": 26,
+      "url": "https://doi.org/10.3390/electronics13193823"
+    },
+    {
+      "paper_id": "gen:275daf00c834",
+      "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+      "year": null,
+      "citations": 326,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441"
+    },
+    {
+      "paper_id": "gen:1bd69a15eede",
+      "title": "Phishing detection system through hybrid machine learning based on URL",
+      "year": null,
+      "citations": 311,
+      "url": "https://ieeexplore.ieee.org/abstract/document/10058201/"
+    },
+    {
+      "paper_id": "W:W3207470445",
+      "title": "Detecting phishing websites using machine learning technique",
+      "year": 2021,
+      "citations": 107,
+      "url": "https://doi.org/10.1371/journal.pone.0258361"
+    },
+    {
+      "paper_id": "gen:eb5652437bc0",
+      "title": "Jail-Phish: An improved search engine based phishing detection system",
+      "year": null,
+      "citations": 139,
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167404818304280"
+    },
+    {
+      "paper_id": "W:W3003583062",
+      "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+      "year": 2020,
+      "citations": 137,
+      "url": "https://doi.org/10.1109/access.2020.2969780"
+    },
+    {
+      "paper_id": "gen:5793ccee37d3",
+      "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+      "year": null,
+      "citations": 291,
+      "url": "https://www.mdpi.com/2079-9292/12/1/232"
+    }
+  ],
+  "top_papers": [
+    {
+      "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+      "abstract": "The landscape of phishing email threats is continually evolving nowadays, making it challenging to combat effectively with traditional methods even with carrier-grade spam filters. Traditional detection mechanisms such as blacklisting, whitelisting, signature-based, and rule-based techniques could not effectively prevent phishing, spear-phishing, and zero-day attacks, as cybercriminals are using sophisticated techniques and trusted email service providers. Consequently, many researchers have recently concentrated on leveraging machine learning (ML) and deep learning (DL) approaches to enhance phishing email detection capabilities with better accuracy. To gain insights into the development of deep learning algorithms in the current research on phishing prevention, this study conducts a systematic literature review (SLR) following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. By synthesizing the 33 selected papers using the SLR approach, this study presents a taxonomy of DL-based phishing detection methods, analyzing their effectiveness, limitations, and future research directions to address current challenges. The study reveals that the adaptability of detection models to new behaviors of phishing emails is the major improvement area. This study aims to add details about deep learning used for security to the body of knowledge, and it discusses future research in phishing detection systems.",
+      "year": 2024,
+      "authors": [
+        "Phyo Htet Kyaw",
+        "Jairo Gutiérrez",
+        "Akbar Ghobakhlou"
+      ],
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.3390/electronics13193823",
+      "paper_id": "W:W4402925642",
+      "citations": 26,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.3390/electronics13193823",
+      "normalized_citation_score": 0.4594,
+      "normalized_recency_score": 0.85,
+      "index": 4,
+      "recency_score": 8,
+      "relevance_score": 6,
+      "verdict": "✅ Still valid"
+    },
+    {
+      "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+      "abstract": "Nowadays, Artificial Intelligence (AI) is widely applied in every area of human being’s daily life. Despite the AI benefits, its application suffer from the opacity of complex internal mechanisms and doesn’t satisfy by design the principles of Explainable Artificial Intelligence (XAI). The lack of transparency further exacerbates the problem in the field of Cybersecurity because entrusting crucial decisions to a system that cannot explain itself presents obvious dangers. There are several methods in the literature capable of providing explainability of AI results. Anyway, the application of XAI in Cybersecurity can be a double-edged sword. It substantially improves the Cybersecurity practices but simultaneously leaves the system vulnerable to adversary attacks. Therefore, there is a need to analyze the state-of-the-art of XAI methods in Cybersecurity to provide a clear vision for future research. This study presents an in-depth examination of the application of XAI in Cybersecurity. It considers more than 300 papers to comprehensively analyze the main Cybersecurity application fields, like Intrusion Detection Systems,Malware detection, Phishing and Spam detection, BotNets detection, Fraud detection, Zero-Day vulnerabilities, Digital Forensics and Crypto-Jacking. Specifically, this study focuses on the explainability methods adopted or proposed in these fields, pointing out promising works and new challenges.",
+      "year": 2022,
+      "authors": [
+        "Nicola Capuano",
+        "Giuseppe Fenza",
+        "Vincenzo Loia",
+        "Claudio Stanzione"
+      ],
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/access.2022.3204171",
+      "paper_id": "W:W4294691140",
+      "citations": 247,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.1109/access.2022.3204171",
+      "normalized_citation_score": 0.7237,
+      "normalized_recency_score": 0.7,
+      "index": 1,
+      "recency_score": 6,
+      "relevance_score": 6,
+      "verdict": "⚠️ Partially outdated"
+    },
+    {
+      "title": "Detecting phishing websites using machine learning technique",
+      "abstract": "In recent years, advancements in Internet and cloud technologies have led to a significant increase in electronic trading in which consumers make online purchases and transactions. This growth leads to unauthorized access to users' sensitive information and damages the resources of an enterprise. Phishing is one of the familiar attacks that trick users to access malicious content and gain their information. In terms of website interface and uniform resource locator (URL), most phishing webpages look identical to the actual webpages. Various strategies for detecting phishing websites, such as blacklist, heuristic, Etc., have been suggested. However, due to inefficient security technologies, there is an exponential increase in the number of victims. The anonymous and uncontrollable framework of the Internet is more vulnerable to phishing attacks. Existing research works show that the performance of the phishing detection system is limited. There is a demand for an intelligent technique to protect users from the cyber-attacks. In this study, the author proposed a URL detection technique based on machine learning approaches. A recurrent neural network method is employed to detect phishing URL. Researcher evaluated the proposed method with 7900 malicious and 5800 legitimate sites, respectively. The experiments' outcome shows that the proposed method's performance is better than the recent approaches in malicious URL detection.",
+      "year": 2021,
+      "authors": [
+        "Ashit Kumar Dutta"
+      ],
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1371/journal.pone.0258361",
+      "paper_id": "W:W3207470445",
+      "citations": 107,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.1371/journal.pone.0258361",
+      "normalized_citation_score": 0.6329,
+      "normalized_recency_score": 0.7,
+      "index": 7,
+      "recency_score": 5,
+      "relevance_score": 6,
+      "verdict": "⚠️ Partially outdated"
+    },
+    {
+      "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+      "abstract": "… This paper presents a novel lightweight phishing detection approach completely based on … mentioned system produces a very satisfying recognition rate which is 95.80%. This system, …",
+      "year": null,
+      "authors": [],
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://link.springer.com/article/10.1186/s13673-017-0098-1",
+      "paper_id": "gen:12e7d7919ae5",
+      "citations": 180,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.1186/s13673-017-0098-1",
+      "normalized_citation_score": 0.691,
+      "normalized_recency_score": 0.4,
+      "index": 2,
+      "recency_score": 3,
+      "relevance_score": 6,
+      "verdict": "❌ Outdated"
+    },
+    {
+      "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+      "abstract": "… phishing website assessment and propose an intelligent resilient and effective model for detecting e-banking phishing … to characterize the e-banking phishing website factors and to …",
+      "year": null,
+      "authors": [],
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441",
+      "paper_id": "gen:275daf00c834",
+      "citations": 326,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.1016/j.eswa.2010.04.044",
+      "normalized_citation_score": 0.7506,
+      "normalized_recency_score": 0.4,
+      "index": 5,
+      "recency_score": 3,
+      "relevance_score": 6,
+      "verdict": "❌ Outdated"
+    }
+  ],
+  "influential_papers": [
+    {
+      "title": "Teaching Johnny not to fall for phish",
+      "abstract": "Phishing attacks, in which criminals lure Internet users to Web sites that spoof legitimate Web sites, are occurring with increasing frequency and are causing considerable harm to victims. While a great deal of effort has been devoted to solving the phishing problem by prevention and detection of phishing emails and phishing Web sites, little research has been done in the area of training users to recognize those attacks. Our research focuses on educating users about phishing and helping them make better trust decisions. We identified a number of challenges for end-user security education in general and anti-phishing education in particular: users are not motivated to learn about security; for most users, security is a secondary task; it is difficult to teach people to identify security threats without also increasing their tendency to misjudge nonthreats as threats. Keeping these challenges in mind, we developed an email-based anti-phishing education system called “PhishGuru” and an online game called “Anti-Phishing Phil” that teaches users how to use cues in URLs to avoid falling for phishing attacks. We applied learning science instructional principles in the design of PhishGuru and Anti-Phishing Phil. In this article we present the results of PhishGuru and Anti-Phishing Phil user studies that demonstrate the effectiveness of these tools. Our results suggest that, while automated detection systems should be used as the first line of defense against phishing attacks, user education offers a complementary approach to help people better recognize fraudulent emails and websites.",
+      "year": 2010,
+      "authors": [
+        "Ponnurangam Kumaraguru",
+        "Steve Sheng",
+        "Alessandro Acquisti",
+        "Lorrie Faith Cranor",
+        "Jason Hong"
+      ],
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1145/1754393.1754396",
+      "paper_id": "W:W2071869991",
+      "citations": 391,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.1145/1754393.1754396",
+      "normalized_citation_score": 0.7672,
+      "normalized_recency_score": 0.35
+    },
+    {
+      "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+      "abstract": "… phishing website assessment and propose an intelligent resilient and effective model for detecting e-banking phishing … to characterize the e-banking phishing website factors and to …",
+      "year": null,
+      "authors": [],
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441",
+      "paper_id": "gen:275daf00c834",
+      "citations": 326,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.1016/j.eswa.2010.04.044",
+      "normalized_citation_score": 0.7506,
+      "normalized_recency_score": 0.4
+    },
+    {
+      "title": "Phishing detection system through hybrid machine learning based on URL",
+      "abstract": "… Phishing detection is required for all of these aspects to secure our computer system. Cyber … Over the last decade, several antiphishing detection mechanisms have been proposed. …",
+      "year": null,
+      "authors": [],
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://ieeexplore.ieee.org/abstract/document/10058201/",
+      "paper_id": "gen:1bd69a15eede",
+      "citations": 311,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "conference",
+      "doi": "10.1109/iceeict61591.2024.10718484",
+      "normalized_citation_score": 0.7461,
+      "normalized_recency_score": 0.4
+    },
+    {
+      "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+      "abstract": "… , we suggest a phishing detection system based on deep … phishing detection system for detecting phishing URLs. In order to detect phishing URLs and show the robustness of the system…",
+      "year": null,
+      "authors": [],
+      "source": "Web (Google Scholar via SerpAPI)",
+      "url": "https://www.mdpi.com/2079-9292/12/1/232",
+      "paper_id": "gen:5793ccee37d3",
+      "citations": 291,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.3390/electronics12010232",
+      "normalized_citation_score": 0.7398,
+      "normalized_recency_score": 0.4
+    },
+    {
+      "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+      "abstract": "Nowadays, Artificial Intelligence (AI) is widely applied in every area of human being’s daily life. Despite the AI benefits, its application suffer from the opacity of complex internal mechanisms and doesn’t satisfy by design the principles of Explainable Artificial Intelligence (XAI). The lack of transparency further exacerbates the problem in the field of Cybersecurity because entrusting crucial decisions to a system that cannot explain itself presents obvious dangers. There are several methods in the literature capable of providing explainability of AI results. Anyway, the application of XAI in Cybersecurity can be a double-edged sword. It substantially improves the Cybersecurity practices but simultaneously leaves the system vulnerable to adversary attacks. Therefore, there is a need to analyze the state-of-the-art of XAI methods in Cybersecurity to provide a clear vision for future research. This study presents an in-depth examination of the application of XAI in Cybersecurity. It considers more than 300 papers to comprehensively analyze the main Cybersecurity application fields, like Intrusion Detection Systems,Malware detection, Phishing and Spam detection, BotNets detection, Fraud detection, Zero-Day vulnerabilities, Digital Forensics and Crypto-Jacking. Specifically, this study focuses on the explainability methods adopted or proposed in these fields, pointing out promising works and new challenges.",
+      "year": 2022,
+      "authors": [
+        "Nicola Capuano",
+        "Giuseppe Fenza",
+        "Vincenzo Loia",
+        "Claudio Stanzione"
+      ],
+      "source": "OpenAlex",
+      "url": "https://doi.org/10.1109/access.2022.3204171",
+      "paper_id": "W:W4294691140",
+      "citations": 247,
+      "influential_citations": null,
+      "is_influential": null,
+      "verified": true,
+      "source_type": "journal",
+      "doi": "10.1109/access.2022.3204171",
+      "normalized_citation_score": 0.7237,
+      "normalized_recency_score": 0.7
+    }
+  ],
+  "key_points": [
+    "Machine learning and deep learning techniques are effective for phishing detection"
+  ],
+  "agent_logs": [
+    {
+      "agent": "Research Strategist",
+      "thought": "Executed planner",
+      "output": {
+        "plan": {
+          "plan": [
+            "Conduct a literature review of existing phishing detection systems",
+            "Identify key features and techniques used in phishing detection",
+            "Analyze the performance of different machine learning algorithms in phishing detection",
+            "Examine the role of natural language processing in phishing detection",
+            "Investigate the use of deep learning techniques in phishing detection",
+            "Evaluate the effectiveness of phishing detection systems in real-world scenarios",
+            "Compare the results of different studies to identify trends and patterns"
+          ],
+          "retrieval_queries": [
+            "phishing detection using machine learning",
+            "natural language processing for phishing detection",
+            "deep learning techniques for phishing detection",
+            "evaluation of phishing detection systems",
+            "phishing detection in real-world scenarios"
+          ],
+          "sub_questions": [
+            "What are the most effective machine learning algorithms for phishing detection?",
+            "How does natural language processing improve phishing detection accuracy?",
+            "What are the limitations of current phishing detection systems?",
+            "How can deep learning techniques be applied to improve phishing detection?"
+          ],
+          "vague_or_ambiguous": true,
+          "suggested_refinement_prompt": "Please specify the type of phishing detection system you are interested in (e.g. email, website, SMS)"
+        }
+      }
+    },
+    {
+      "agent": "Information Scout",
+      "thought": "Executed retriever",
+      "output": {
+        "papers": [
+          {
+            "title": "Teaching Johnny not to fall for phish",
+            "abstract": "Phishing attacks, in which criminals lure Internet users to Web sites that spoof legitimate Web sites, are occurring with increasing frequency and are causing considerable harm to victims. While a great deal of effort has been devoted to solving the phishing problem by prevention and detection of phishing emails and phishing Web sites, little research has been done in the area of training users to recognize those attacks. Our research focuses on educating users about phishing and helping them make better trust decisions. We identified a number of challenges for end-user security education in general and anti-phishing education in particular: users are not motivated to learn about security; for most users, security is a secondary task; it is difficult to teach people to identify security threats without also increasing their tendency to misjudge nonthreats as threats. Keeping these challenges in mind, we developed an email-based anti-phishing education system called “PhishGuru” and an online game called “Anti-Phishing Phil” that teaches users how to use cues in URLs to avoid falling for phishing attacks. We applied learning science instructional principles in the design of PhishGuru and Anti-Phishing Phil. In this article we present the results of PhishGuru and Anti-Phishing Phil user studies that demonstrate the effectiveness of these tools. Our results suggest that, while automated detection systems should be used as the first line of defense against phishing attacks, user education offers a complementary approach to help people better recognize fraudulent emails and websites.",
+            "year": 2010,
+            "authors": [
+              "Ponnurangam Kumaraguru",
+              "Steve Sheng",
+              "Alessandro Acquisti",
+              "Lorrie Faith Cranor",
+              "Jason Hong"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1145/1754393.1754396",
+            "paper_id": "W:W2071869991",
+            "citations": 391,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1145/1754393.1754396",
+            "normalized_citation_score": 0.7672,
+            "normalized_recency_score": 0.35
+          },
+          {
+            "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+            "abstract": "… phishing website assessment and propose an intelligent resilient and effective model for detecting e-banking phishing … to characterize the e-banking phishing website factors and to …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441",
+            "paper_id": "gen:275daf00c834",
+            "citations": 326,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.7506,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Phishing detection system through hybrid machine learning based on URL",
+            "abstract": "… Phishing detection is required for all of these aspects to secure our computer system. Cyber … Over the last decade, several antiphishing detection mechanisms have been proposed. …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10058201/",
+            "paper_id": "gen:1bd69a15eede",
+            "citations": 311,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.7461,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+            "abstract": "… , we suggest a phishing detection system based on deep … phishing detection system for detecting phishing URLs. In order to detect phishing URLs and show the robustness of the system…",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2079-9292/12/1/232",
+            "paper_id": "gen:5793ccee37d3",
+            "citations": 291,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.7398,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+            "abstract": "Nowadays, Artificial Intelligence (AI) is widely applied in every area of human being’s daily life. Despite the AI benefits, its application suffer from the opacity of complex internal mechanisms and doesn’t satisfy by design the principles of Explainable Artificial Intelligence (XAI). The lack of transparency further exacerbates the problem in the field of Cybersecurity because entrusting crucial decisions to a system that cannot explain itself presents obvious dangers. There are several methods in the literature capable of providing explainability of AI results. Anyway, the application of XAI in Cybersecurity can be a double-edged sword. It substantially improves the Cybersecurity practices but simultaneously leaves the system vulnerable to adversary attacks. Therefore, there is a need to analyze the state-of-the-art of XAI methods in Cybersecurity to provide a clear vision for future research. This study presents an in-depth examination of the application of XAI in Cybersecurity. It considers more than 300 papers to comprehensively analyze the main Cybersecurity application fields, like Intrusion Detection Systems,Malware detection, Phishing and Spam detection, BotNets detection, Fraud detection, Zero-Day vulnerabilities, Digital Forensics and Crypto-Jacking. Specifically, this study focuses on the explainability methods adopted or proposed in these fields, pointing out promising works and new challenges.",
+            "year": 2022,
+            "authors": [
+              "Nicola Capuano",
+              "Giuseppe Fenza",
+              "Vincenzo Loia",
+              "Claudio Stanzione"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2022.3204171",
+            "paper_id": "W:W4294691140",
+            "citations": 247,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2022.3204171",
+            "normalized_citation_score": 0.7237,
+            "normalized_recency_score": 0.7
+          },
+          {
+            "title": "The Influence of Experiential and Dispositional Factors in Phishing: An Empirical Investigation of the Deceived",
+            "abstract": "Abstract Phishing has been a major problem for information systems managers and users for several years now. In 2008, it was estimated that phishing resulted in close to $50 billion in damages to U.S. consumers and businesses. Even so, research has yet to explore many of the reasons why Internet users continue to be exploited. The goal of this paper is to better understand the behavioral factors that may increase one's susceptibility for complying with a phisher's request for personal information. Using past research on deception detection, a research model was developed to help explain compliant phishing responses. The model was tested using a field study in which each participant received a phishing e-mail asking for sensitive information. It was found that four behavioral factors were influential as to whether the phishing e-mails were answered with sensitive information. The paper concludes by suggesting that the behavioral aspect of susceptible users be integrated into the current tools and materials used in antiphishing efforts. Keywords: computer-mediated deceptionelectronic mail fraudInternet securityinterpersonal deception theoryphishing",
+            "year": 2010,
+            "authors": [
+              "Ryan Wright",
+              "Kent Marett"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.2753/mis0742-1222270111",
+            "paper_id": "W:W2085463891",
+            "citations": 228,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.2753/mis0742-1222270111",
+            "normalized_citation_score": 0.7156,
+            "normalized_recency_score": 0.35
+          },
+          {
+            "title": "PHISH-SAFE: URL features-based phishing detection system using machine learning",
+            "abstract": "… Phishing Detection System In this section, we will discuss our proposed phishing detection system which can detect a phishing … Total 32,951 phishing URLs are taken from phishtank.…",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/chapter/10.1007/978-981-10-8536-9_44",
+            "paper_id": "gen:6b96ca2a3b07",
+            "citations": 203,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.7037,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "An intelligent cyber security phishing detection system using deep learning techniques",
+            "abstract": "… attacks techniques and based on our survey that phishing emails is the most effective on the … more effective phishing detection technology is needed to curb the threat of phishing emails …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/article/10.1007/s10586-022-03604-4",
+            "paper_id": "gen:f916310f70d3",
+            "citations": 195,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.6995,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+            "abstract": "… This paper presents a novel lightweight phishing detection approach completely based on … mentioned system produces a very satisfying recognition rate which is 95.80%. This system, …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/article/10.1186/s13673-017-0098-1",
+            "paper_id": "gen:12e7d7919ae5",
+            "citations": 180,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.691,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "PhishHaven—An Efficient Real-Time AI Phishing URLs Detection System",
+            "abstract": "Different machine learning and deep learning-based approaches have been proposed for designing defensive mechanisms against various phishing attacks. Recently, researchers showed that phishing attacks can be performed by employing a deep neural network-based phishing URL generating system called DeepPhish. To prevent this kind of attack, we design an ensemble machine learning-based detection system called PhishHaven to identify AI-generated as well as human-crafted phishing URLs. To the best of our knowledge, this is the first study to consider detecting phishing attacks by both AI and human attackers. PhishHaven employs lexical analysis for feature extraction. To further enhance lexical analysis, we introduce URL HTML Encoding to classify URL on-the-fly and proactively compare with some of the existing methods. We also introduce a URL Hit approach to deal with tiny URLs, which is an open problem yet to be solved. Moreover, the final classification of URLs is made on an unbiased voting mechanism in PhishHaven, which aims to avoid misclassification when the number of votes is equal. To speed up the ensemble-based machine learning models, PhishHaven employs a multi-threading approach to execute the classification in parallel, leading to real-time detection. Theoretical analysis of our solution shows that (1) it can always detect tiny URLs, and (2) it can detect future AI-generated Phishing URLs based on our selected lexical features with 100% accuracy. Through experiments, we analyze our solution with a benchmark dataset of 100,000 phishing and normal URLs. The results show that PhishHaven can achieve 98.00% accuracy, outperforming the existing lexical-based human-crafted phishing URLs detection systems.",
+            "year": 2020,
+            "authors": [
+              "Maria Sameen",
+              "KyungHyun Han",
+              "Seong Oun Hwang"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2020.2991403",
+            "paper_id": "W:W3022651159",
+            "citations": 139,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2020.2991403",
+            "normalized_citation_score": 0.6627,
+            "normalized_recency_score": 0.5
+          },
+          {
+            "title": "Jail-Phish: An improved search engine based phishing detection system",
+            "abstract": "… website is termed as phishing. Recent techniques use … the phishing attacks as it achieves promising detection accuracy. But, the limitation of this approach is that it fails when phishing …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0167404818304280",
+            "paper_id": "gen:eb5652437bc0",
+            "citations": 139,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.6627,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+            "abstract": "We perform an in-depth, systematic benchmarking study and evaluation of phishing features on diverse and extensive datasets. We propose a new taxonomy of features based on the interpretation and purpose of each feature. Next, we propose a benchmarking framework called ‘PhishBench,’ which enables us to evaluate and compare the existing features for phishing detection systematically and thoroughly under identical experimental conditions, i.e., unified system specification, datasets, classifiers, and evaluation metrics. PhishBench is a first in the field of benchmarking phishing related research and incorporates thorough and systematic evaluation and feature comparison. We use PhishBench to test methods published in the phishing literature on new and diverse datasets to check their robustness and scalability. We study how dataset characteristics, e.g., varying legitimate to phishing ratios and increasing the size of imbalanced datasets, affect classification performance. Our results show that the imbalanced nature of phishing attacks affects the detection systems’ performance and researchers should take this into account when proposing a new method. We also found that retraining alone is not enough to defeat new attacks. New features and techniques are required to stop attackers from fooling detection systems.",
+            "year": 2020,
+            "authors": [
+              "Ayman El Aassal",
+              "Shahryar Baki",
+              "Avisha Das",
+              "Rakesh Verma"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2020.2969780",
+            "paper_id": "W:W3003583062",
+            "citations": 137,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2020.2969780",
+            "normalized_citation_score": 0.6611,
+            "normalized_recency_score": 0.5
+          },
+          {
+            "title": "Dephides: Deep learning based phishing detection system",
+            "abstract": "… sophisticated phishing detection systems on computing devices. Many of these systems … This study presents the development of a phishing detection system based on deep learning…",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10388305/",
+            "paper_id": "gen:8b4b2263219d",
+            "citations": 110,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.6361,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Detecting phishing websites using machine learning technique",
+            "abstract": "In recent years, advancements in Internet and cloud technologies have led to a significant increase in electronic trading in which consumers make online purchases and transactions. This growth leads to unauthorized access to users' sensitive information and damages the resources of an enterprise. Phishing is one of the familiar attacks that trick users to access malicious content and gain their information. In terms of website interface and uniform resource locator (URL), most phishing webpages look identical to the actual webpages. Various strategies for detecting phishing websites, such as blacklist, heuristic, Etc., have been suggested. However, due to inefficient security technologies, there is an exponential increase in the number of victims. The anonymous and uncontrollable framework of the Internet is more vulnerable to phishing attacks. Existing research works show that the performance of the phishing detection system is limited. There is a demand for an intelligent technique to protect users from the cyber-attacks. In this study, the author proposed a URL detection technique based on machine learning approaches. A recurrent neural network method is employed to detect phishing URL. Researcher evaluated the proposed method with 7900 malicious and 5800 legitimate sites, respectively. The experiments' outcome shows that the proposed method's performance is better than the recent approaches in malicious URL detection.",
+            "year": 2021,
+            "authors": [
+              "Ashit Kumar Dutta"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1371/journal.pone.0258361",
+            "paper_id": "W:W3207470445",
+            "citations": 107,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1371/journal.pone.0258361",
+            "normalized_citation_score": 0.6329,
+            "normalized_recency_score": 0.7
+          },
+          {
+            "title": "A phishing detection system based on machine learning",
+            "abstract": "… , our system is available to remind them promptly. This paper discusses the current mainstream phishing detection related techniques in the session II. The system architecture will be …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/8858325/",
+            "paper_id": "gen:134c4dba33e8",
+            "citations": 61,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.5655,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+            "abstract": "The landscape of phishing email threats is continually evolving nowadays, making it challenging to combat effectively with traditional methods even with carrier-grade spam filters. Traditional detection mechanisms such as blacklisting, whitelisting, signature-based, and rule-based techniques could not effectively prevent phishing, spear-phishing, and zero-day attacks, as cybercriminals are using sophisticated techniques and trusted email service providers. Consequently, many researchers have recently concentrated on leveraging machine learning (ML) and deep learning (DL) approaches to enhance phishing email detection capabilities with better accuracy. To gain insights into the development of deep learning algorithms in the current research on phishing prevention, this study conducts a systematic literature review (SLR) following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. By synthesizing the 33 selected papers using the SLR approach, this study presents a taxonomy of DL-based phishing detection methods, analyzing their effectiveness, limitations, and future research directions to address current challenges. The study reveals that the adaptability of detection models to new behaviors of phishing emails is the major improvement area. This study aims to add details about deep learning used for security to the body of knowledge, and it discusses future research in phishing detection systems.",
+            "year": 2024,
+            "authors": [
+              "Phyo Htet Kyaw",
+              "Jairo Gutiérrez",
+              "Akbar Ghobakhlou"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.3390/electronics13193823",
+            "paper_id": "W:W4402925642",
+            "citations": 26,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/electronics13193823",
+            "normalized_citation_score": 0.4594,
+            "normalized_recency_score": 0.85
+          }
+        ],
+        "papers_count": 16,
+        "retrieval_note": "Merged arXiv + Semantic Scholar + OpenAlex (+ optional web) — normalized, deduplicated, no LLM text.",
+        "normalization": {
+          "input_count": 16,
+          "output_count": 16,
+          "dropped": 0
+        }
+      }
+    },
+    {
+      "agent": "Verifier",
+      "thought": "Executed verifier",
+      "output": {
+        "papers": [
+          {
+            "title": "Teaching Johnny not to fall for phish",
+            "abstract": "Phishing attacks, in which criminals lure Internet users to Web sites that spoof legitimate Web sites, are occurring with increasing frequency and are causing considerable harm to victims. While a great deal of effort has been devoted to solving the phishing problem by prevention and detection of phishing emails and phishing Web sites, little research has been done in the area of training users to recognize those attacks. Our research focuses on educating users about phishing and helping them make better trust decisions. We identified a number of challenges for end-user security education in general and anti-phishing education in particular: users are not motivated to learn about security; for most users, security is a secondary task; it is difficult to teach people to identify security threats without also increasing their tendency to misjudge nonthreats as threats. Keeping these challenges in mind, we developed an email-based anti-phishing education system called “PhishGuru” and an online game called “Anti-Phishing Phil” that teaches users how to use cues in URLs to avoid falling for phishing attacks. We applied learning science instructional principles in the design of PhishGuru and Anti-Phishing Phil. In this article we present the results of PhishGuru and Anti-Phishing Phil user studies that demonstrate the effectiveness of these tools. Our results suggest that, while automated detection systems should be used as the first line of defense against phishing attacks, user education offers a complementary approach to help people better recognize fraudulent emails and websites.",
+            "year": 2010,
+            "authors": [
+              "Ponnurangam Kumaraguru",
+              "Steve Sheng",
+              "Alessandro Acquisti",
+              "Lorrie Faith Cranor",
+              "Jason Hong"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1145/1754393.1754396",
+            "paper_id": "W:W2071869991",
+            "citations": 391,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1145/1754393.1754396",
+            "normalized_citation_score": 0.7672,
+            "normalized_recency_score": 0.35
+          },
+          {
+            "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+            "abstract": "… phishing website assessment and propose an intelligent resilient and effective model for detecting e-banking phishing … to characterize the e-banking phishing website factors and to …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441",
+            "paper_id": "gen:275daf00c834",
+            "citations": 326,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1016/j.eswa.2010.04.044",
+            "normalized_citation_score": 0.7506,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Phishing detection system through hybrid machine learning based on URL",
+            "abstract": "… Phishing detection is required for all of these aspects to secure our computer system. Cyber … Over the last decade, several antiphishing detection mechanisms have been proposed. …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10058201/",
+            "paper_id": "gen:1bd69a15eede",
+            "citations": 311,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1109/iceeict61591.2024.10718484",
+            "normalized_citation_score": 0.7461,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+            "abstract": "… , we suggest a phishing detection system based on deep … phishing detection system for detecting phishing URLs. In order to detect phishing URLs and show the robustness of the system…",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2079-9292/12/1/232",
+            "paper_id": "gen:5793ccee37d3",
+            "citations": 291,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/electronics12010232",
+            "normalized_citation_score": 0.7398,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+            "abstract": "Nowadays, Artificial Intelligence (AI) is widely applied in every area of human being’s daily life. Despite the AI benefits, its application suffer from the opacity of complex internal mechanisms and doesn’t satisfy by design the principles of Explainable Artificial Intelligence (XAI). The lack of transparency further exacerbates the problem in the field of Cybersecurity because entrusting crucial decisions to a system that cannot explain itself presents obvious dangers. There are several methods in the literature capable of providing explainability of AI results. Anyway, the application of XAI in Cybersecurity can be a double-edged sword. It substantially improves the Cybersecurity practices but simultaneously leaves the system vulnerable to adversary attacks. Therefore, there is a need to analyze the state-of-the-art of XAI methods in Cybersecurity to provide a clear vision for future research. This study presents an in-depth examination of the application of XAI in Cybersecurity. It considers more than 300 papers to comprehensively analyze the main Cybersecurity application fields, like Intrusion Detection Systems,Malware detection, Phishing and Spam detection, BotNets detection, Fraud detection, Zero-Day vulnerabilities, Digital Forensics and Crypto-Jacking. Specifically, this study focuses on the explainability methods adopted or proposed in these fields, pointing out promising works and new challenges.",
+            "year": 2022,
+            "authors": [
+              "Nicola Capuano",
+              "Giuseppe Fenza",
+              "Vincenzo Loia",
+              "Claudio Stanzione"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2022.3204171",
+            "paper_id": "W:W4294691140",
+            "citations": 247,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2022.3204171",
+            "normalized_citation_score": 0.7237,
+            "normalized_recency_score": 0.7
+          },
+          {
+            "title": "The Influence of Experiential and Dispositional Factors in Phishing: An Empirical Investigation of the Deceived",
+            "abstract": "Abstract Phishing has been a major problem for information systems managers and users for several years now. In 2008, it was estimated that phishing resulted in close to $50 billion in damages to U.S. consumers and businesses. Even so, research has yet to explore many of the reasons why Internet users continue to be exploited. The goal of this paper is to better understand the behavioral factors that may increase one's susceptibility for complying with a phisher's request for personal information. Using past research on deception detection, a research model was developed to help explain compliant phishing responses. The model was tested using a field study in which each participant received a phishing e-mail asking for sensitive information. It was found that four behavioral factors were influential as to whether the phishing e-mails were answered with sensitive information. The paper concludes by suggesting that the behavioral aspect of susceptible users be integrated into the current tools and materials used in antiphishing efforts. Keywords: computer-mediated deceptionelectronic mail fraudInternet securityinterpersonal deception theoryphishing",
+            "year": 2010,
+            "authors": [
+              "Ryan Wright",
+              "Kent Marett"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.2753/mis0742-1222270111",
+            "paper_id": "W:W2085463891",
+            "citations": 228,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.2753/mis0742-1222270111",
+            "normalized_citation_score": 0.7156,
+            "normalized_recency_score": 0.35
+          },
+          {
+            "title": "PHISH-SAFE: URL features-based phishing detection system using machine learning",
+            "abstract": "… Phishing Detection System In this section, we will discuss our proposed phishing detection system which can detect a phishing … Total 32,951 phishing URLs are taken from phishtank.…",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/chapter/10.1007/978-981-10-8536-9_44",
+            "paper_id": "gen:6b96ca2a3b07",
+            "citations": 203,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": "10.1007/978-981-10-8536-9_44",
+            "normalized_citation_score": 0.7037,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "An intelligent cyber security phishing detection system using deep learning techniques",
+            "abstract": "… attacks techniques and based on our survey that phishing emails is the most effective on the … more effective phishing detection technology is needed to curb the threat of phishing emails …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/article/10.1007/s10586-022-03604-4",
+            "paper_id": "gen:f916310f70d3",
+            "citations": 195,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1007/s10586-022-03604-4",
+            "normalized_citation_score": 0.6995,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+            "abstract": "… This paper presents a novel lightweight phishing detection approach completely based on … mentioned system produces a very satisfying recognition rate which is 95.80%. This system, …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/article/10.1186/s13673-017-0098-1",
+            "paper_id": "gen:12e7d7919ae5",
+            "citations": 180,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1186/s13673-017-0098-1",
+            "normalized_citation_score": 0.691,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "PhishHaven—An Efficient Real-Time AI Phishing URLs Detection System",
+            "abstract": "Different machine learning and deep learning-based approaches have been proposed for designing defensive mechanisms against various phishing attacks. Recently, researchers showed that phishing attacks can be performed by employing a deep neural network-based phishing URL generating system called DeepPhish. To prevent this kind of attack, we design an ensemble machine learning-based detection system called PhishHaven to identify AI-generated as well as human-crafted phishing URLs. To the best of our knowledge, this is the first study to consider detecting phishing attacks by both AI and human attackers. PhishHaven employs lexical analysis for feature extraction. To further enhance lexical analysis, we introduce URL HTML Encoding to classify URL on-the-fly and proactively compare with some of the existing methods. We also introduce a URL Hit approach to deal with tiny URLs, which is an open problem yet to be solved. Moreover, the final classification of URLs is made on an unbiased voting mechanism in PhishHaven, which aims to avoid misclassification when the number of votes is equal. To speed up the ensemble-based machine learning models, PhishHaven employs a multi-threading approach to execute the classification in parallel, leading to real-time detection. Theoretical analysis of our solution shows that (1) it can always detect tiny URLs, and (2) it can detect future AI-generated Phishing URLs based on our selected lexical features with 100% accuracy. Through experiments, we analyze our solution with a benchmark dataset of 100,000 phishing and normal URLs. The results show that PhishHaven can achieve 98.00% accuracy, outperforming the existing lexical-based human-crafted phishing URLs detection systems.",
+            "year": 2020,
+            "authors": [
+              "Maria Sameen",
+              "KyungHyun Han",
+              "Seong Oun Hwang"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2020.2991403",
+            "paper_id": "W:W3022651159",
+            "citations": 139,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2020.2991403",
+            "normalized_citation_score": 0.6627,
+            "normalized_recency_score": 0.5
+          },
+          {
+            "title": "Jail-Phish: An improved search engine based phishing detection system",
+            "abstract": "… website is termed as phishing. Recent techniques use … the phishing attacks as it achieves promising detection accuracy. But, the limitation of this approach is that it fails when phishing …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0167404818304280",
+            "paper_id": "gen:eb5652437bc0",
+            "citations": 139,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1016/j.cose.2019.02.011",
+            "normalized_citation_score": 0.6627,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+            "abstract": "We perform an in-depth, systematic benchmarking study and evaluation of phishing features on diverse and extensive datasets. We propose a new taxonomy of features based on the interpretation and purpose of each feature. Next, we propose a benchmarking framework called ‘PhishBench,’ which enables us to evaluate and compare the existing features for phishing detection systematically and thoroughly under identical experimental conditions, i.e., unified system specification, datasets, classifiers, and evaluation metrics. PhishBench is a first in the field of benchmarking phishing related research and incorporates thorough and systematic evaluation and feature comparison. We use PhishBench to test methods published in the phishing literature on new and diverse datasets to check their robustness and scalability. We study how dataset characteristics, e.g., varying legitimate to phishing ratios and increasing the size of imbalanced datasets, affect classification performance. Our results show that the imbalanced nature of phishing attacks affects the detection systems’ performance and researchers should take this into account when proposing a new method. We also found that retraining alone is not enough to defeat new attacks. New features and techniques are required to stop attackers from fooling detection systems.",
+            "year": 2020,
+            "authors": [
+              "Ayman El Aassal",
+              "Shahryar Baki",
+              "Avisha Das",
+              "Rakesh Verma"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2020.2969780",
+            "paper_id": "W:W3003583062",
+            "citations": 137,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2020.2969780",
+            "normalized_citation_score": 0.6611,
+            "normalized_recency_score": 0.5
+          },
+          {
+            "title": "Dephides: Deep learning based phishing detection system",
+            "abstract": "… sophisticated phishing detection systems on computing devices. Many of these systems … This study presents the development of a phishing detection system based on deep learning…",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10388305/",
+            "paper_id": "gen:8b4b2263219d",
+            "citations": 110,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "web",
+            "doi": null,
+            "normalized_citation_score": 0.6361,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Detecting phishing websites using machine learning technique",
+            "abstract": "In recent years, advancements in Internet and cloud technologies have led to a significant increase in electronic trading in which consumers make online purchases and transactions. This growth leads to unauthorized access to users' sensitive information and damages the resources of an enterprise. Phishing is one of the familiar attacks that trick users to access malicious content and gain their information. In terms of website interface and uniform resource locator (URL), most phishing webpages look identical to the actual webpages. Various strategies for detecting phishing websites, such as blacklist, heuristic, Etc., have been suggested. However, due to inefficient security technologies, there is an exponential increase in the number of victims. The anonymous and uncontrollable framework of the Internet is more vulnerable to phishing attacks. Existing research works show that the performance of the phishing detection system is limited. There is a demand for an intelligent technique to protect users from the cyber-attacks. In this study, the author proposed a URL detection technique based on machine learning approaches. A recurrent neural network method is employed to detect phishing URL. Researcher evaluated the proposed method with 7900 malicious and 5800 legitimate sites, respectively. The experiments' outcome shows that the proposed method's performance is better than the recent approaches in malicious URL detection.",
+            "year": 2021,
+            "authors": [
+              "Ashit Kumar Dutta"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1371/journal.pone.0258361",
+            "paper_id": "W:W3207470445",
+            "citations": 107,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1371/journal.pone.0258361",
+            "normalized_citation_score": 0.6329,
+            "normalized_recency_score": 0.7
+          },
+          {
+            "title": "A phishing detection system based on machine learning",
+            "abstract": "… , our system is available to remind them promptly. This paper discusses the current mainstream phishing detection related techniques in the session II. The system architecture will be …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/8858325/",
+            "paper_id": "gen:134c4dba33e8",
+            "citations": 61,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1109/icea.2019.8858325",
+            "normalized_citation_score": 0.5655,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+            "abstract": "The landscape of phishing email threats is continually evolving nowadays, making it challenging to combat effectively with traditional methods even with carrier-grade spam filters. Traditional detection mechanisms such as blacklisting, whitelisting, signature-based, and rule-based techniques could not effectively prevent phishing, spear-phishing, and zero-day attacks, as cybercriminals are using sophisticated techniques and trusted email service providers. Consequently, many researchers have recently concentrated on leveraging machine learning (ML) and deep learning (DL) approaches to enhance phishing email detection capabilities with better accuracy. To gain insights into the development of deep learning algorithms in the current research on phishing prevention, this study conducts a systematic literature review (SLR) following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. By synthesizing the 33 selected papers using the SLR approach, this study presents a taxonomy of DL-based phishing detection methods, analyzing their effectiveness, limitations, and future research directions to address current challenges. The study reveals that the adaptability of detection models to new behaviors of phishing emails is the major improvement area. This study aims to add details about deep learning used for security to the body of knowledge, and it discusses future research in phishing detection systems.",
+            "year": 2024,
+            "authors": [
+              "Phyo Htet Kyaw",
+              "Jairo Gutiérrez",
+              "Akbar Ghobakhlou"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.3390/electronics13193823",
+            "paper_id": "W:W4402925642",
+            "citations": 26,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/electronics13193823",
+            "normalized_citation_score": 0.4594,
+            "normalized_recency_score": 0.85
+          }
+        ],
+        "verification_summary": {
+          "verified_count": 16,
+          "doi_enriched": 15,
+          "note": "CrossRef title matching is best-effort; verify ≠ correctness."
+        }
+      }
+    },
+    {
+      "agent": "Research Filtering & Ranking Engine",
+      "thought": "Executed filter",
+      "output": {
+        "selected_papers_meta": {
+          "selected_papers": [
+            {
+              "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+              "year": 2022,
+              "citationCount": 247,
+              "citation_velocity": 49.4,
+              "relevance_score": 0.4613,
+              "selection_reason": "Selected for composite score 0.461 (semantic 0.09, citations 0.72, recency 0.70, venue 0.95) with diversity filter.",
+              "paper_id": "W:W4294691140"
+            },
+            {
+              "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+              "year": null,
+              "citationCount": 180,
+              "citation_velocity": 0.0,
+              "relevance_score": 0.4219,
+              "selection_reason": "Selected for composite score 0.422 (semantic 0.14, citations 0.69, recency 0.40, venue 0.95) with diversity filter.",
+              "paper_id": "gen:12e7d7919ae5"
+            },
+            {
+              "title": "Teaching Johnny not to fall for phish",
+              "year": 2010,
+              "citationCount": 391,
+              "citation_velocity": 23.0,
+              "relevance_score": 0.4023,
+              "selection_reason": "Selected for composite score 0.402 (semantic 0.10, citations 0.77, recency 0.35, venue 0.95) with diversity filter.",
+              "paper_id": "W:W2071869991"
+            },
+            {
+              "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+              "year": 2024,
+              "citationCount": 26,
+              "citation_velocity": 8.6667,
+              "relevance_score": 0.4394,
+              "selection_reason": "Selected for composite score 0.439 (semantic 0.09, citations 0.46, recency 0.85, venue 0.95) with diversity filter.",
+              "paper_id": "W:W4402925642"
+            },
+            {
+              "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+              "year": null,
+              "citationCount": 326,
+              "citation_velocity": 0.0,
+              "relevance_score": 0.4323,
+              "selection_reason": "Selected for composite score 0.432 (semantic 0.13, citations 0.75, recency 0.40, venue 0.95) with diversity filter.",
+              "paper_id": "gen:275daf00c834"
+            },
+            {
+              "title": "Phishing detection system through hybrid machine learning based on URL",
+              "year": null,
+              "citationCount": 311,
+              "citation_velocity": 0.0,
+              "relevance_score": 0.4305,
+              "selection_reason": "Selected for composite score 0.430 (semantic 0.14, citations 0.75, recency 0.40, venue 0.95) with diversity filter.",
+              "paper_id": "gen:1bd69a15eede"
+            },
+            {
+              "title": "Detecting phishing websites using machine learning technique",
+              "year": 2021,
+              "citationCount": 107,
+              "citation_velocity": 17.8333,
+              "relevance_score": 0.4459,
+              "selection_reason": "Selected for composite score 0.446 (semantic 0.10, citations 0.63, recency 0.70, venue 0.95) with diversity filter.",
+              "paper_id": "W:W3207470445"
+            },
+            {
+              "title": "Jail-Phish: An improved search engine based phishing detection system",
+              "year": null,
+              "citationCount": 139,
+              "citation_velocity": 0.0,
+              "relevance_score": 0.4125,
+              "selection_reason": "Selected for composite score 0.412 (semantic 0.13, citations 0.66, recency 0.40, venue 0.95) with diversity filter.",
+              "paper_id": "gen:eb5652437bc0"
+            },
+            {
+              "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+              "year": 2020,
+              "citationCount": 137,
+              "citation_velocity": 19.5714,
+              "relevance_score": 0.4152,
+              "selection_reason": "Selected for composite score 0.415 (semantic 0.10, citations 0.66, recency 0.50, venue 0.95) with diversity filter.",
+              "paper_id": "W:W3003583062"
+            },
+            {
+              "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+              "year": null,
+              "citationCount": 291,
+              "citation_velocity": 0.0,
+              "relevance_score": 0.4535,
+              "selection_reason": "Selected for composite score 0.454 (semantic 0.19, citations 0.74, recency 0.40, venue 0.95) with diversity filter.",
+              "paper_id": "gen:5793ccee37d3"
+            }
+          ],
+          "selection_strategy": "The deterministic re-rank and MMR strategy is defensible because it ensures a balance between relevance and diversity in the selected papers. This approach allows for the retrieval of high-quality papers that are closely related to the query on phishing detection systems, while also providing a diverse range of perspectives and approaches. The use of MMR (Maximal Marginal Relevance) helps to avoid redundancy and promotes a more comprehensive understanding of the topic.",
+          "per_paper_receipt": [
+            {
+              "paper_id": "W:W4294691140",
+              "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+              "score_components": {
+                "semantic_similarity": 0.0878,
+                "citation_score": 0.7237,
+                "recency_score": 0.7,
+                "keyword_overlap": 0.0328,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4613
+              },
+              "selection_explanation": "Selected for composite score 0.461 (semantic 0.09, citations 0.72, recency 0.70, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "gen:12e7d7919ae5",
+              "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+              "score_components": {
+                "semantic_similarity": 0.1404,
+                "citation_score": 0.691,
+                "recency_score": 0.4,
+                "keyword_overlap": 0.12,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4219
+              },
+              "selection_explanation": "Selected for composite score 0.422 (semantic 0.14, citations 0.69, recency 0.40, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "W:W2071869991",
+              "title": "Teaching Johnny not to fall for phish",
+              "score_components": {
+                "semantic_similarity": 0.0954,
+                "citation_score": 0.7672,
+                "recency_score": 0.35,
+                "keyword_overlap": 0.0303,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4023
+              },
+              "selection_explanation": "Selected for composite score 0.402 (semantic 0.10, citations 0.77, recency 0.35, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "W:W4402925642",
+              "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+              "score_components": {
+                "semantic_similarity": 0.0929,
+                "citation_score": 0.4594,
+                "recency_score": 0.85,
+                "keyword_overlap": 0.0252,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4394
+              },
+              "selection_explanation": "Selected for composite score 0.439 (semantic 0.09, citations 0.46, recency 0.85, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "gen:275daf00c834",
+              "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+              "score_components": {
+                "semantic_similarity": 0.1315,
+                "citation_score": 0.7506,
+                "recency_score": 0.4,
+                "keyword_overlap": 0.1364,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4323
+              },
+              "selection_explanation": "Selected for composite score 0.432 (semantic 0.13, citations 0.75, recency 0.40, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "gen:1bd69a15eede",
+              "title": "Phishing detection system through hybrid machine learning based on URL",
+              "score_components": {
+                "semantic_similarity": 0.1383,
+                "citation_score": 0.7461,
+                "recency_score": 0.4,
+                "keyword_overlap": 0.1034,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4305
+              },
+              "selection_explanation": "Selected for composite score 0.430 (semantic 0.14, citations 0.75, recency 0.40, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "W:W3207470445",
+              "title": "Detecting phishing websites using machine learning technique",
+              "score_components": {
+                "semantic_similarity": 0.0955,
+                "citation_score": 0.6329,
+                "recency_score": 0.7,
+                "keyword_overlap": 0.0339,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4459
+              },
+              "selection_explanation": "Selected for composite score 0.446 (semantic 0.10, citations 0.63, recency 0.70, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "gen:eb5652437bc0",
+              "title": "Jail-Phish: An improved search engine based phishing detection system",
+              "score_components": {
+                "semantic_similarity": 0.1323,
+                "citation_score": 0.6627,
+                "recency_score": 0.4,
+                "keyword_overlap": 0.1111,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4125
+              },
+              "selection_explanation": "Selected for composite score 0.412 (semantic 0.13, citations 0.66, recency 0.40, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "W:W3003583062",
+              "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+              "score_components": {
+                "semantic_similarity": 0.1047,
+                "citation_score": 0.6611,
+                "recency_score": 0.5,
+                "keyword_overlap": 0.0385,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4152
+              },
+              "selection_explanation": "Selected for composite score 0.415 (semantic 0.10, citations 0.66, recency 0.50, venue 0.95) with diversity filter."
+            },
+            {
+              "paper_id": "gen:5793ccee37d3",
+              "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+              "score_components": {
+                "semantic_similarity": 0.1943,
+                "citation_score": 0.7398,
+                "recency_score": 0.4,
+                "keyword_overlap": 0.15,
+                "venue_quality_score": 0.95,
+                "total_score": 0.4535
+              },
+              "selection_explanation": "Selected for composite score 0.454 (semantic 0.19, citations 0.74, recency 0.40, venue 0.95) with diversity filter."
+            }
+          ]
+        },
+        "selected_papers": [
+          {
+            "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+            "abstract": "Nowadays, Artificial Intelligence (AI) is widely applied in every area of human being’s daily life. Despite the AI benefits, its application suffer from the opacity of complex internal mechanisms and doesn’t satisfy by design the principles of Explainable Artificial Intelligence (XAI). The lack of transparency further exacerbates the problem in the field of Cybersecurity because entrusting crucial decisions to a system that cannot explain itself presents obvious dangers. There are several methods in the literature capable of providing explainability of AI results. Anyway, the application of XAI in Cybersecurity can be a double-edged sword. It substantially improves the Cybersecurity practices but simultaneously leaves the system vulnerable to adversary attacks. Therefore, there is a need to analyze the state-of-the-art of XAI methods in Cybersecurity to provide a clear vision for future research. This study presents an in-depth examination of the application of XAI in Cybersecurity. It considers more than 300 papers to comprehensively analyze the main Cybersecurity application fields, like Intrusion Detection Systems,Malware detection, Phishing and Spam detection, BotNets detection, Fraud detection, Zero-Day vulnerabilities, Digital Forensics and Crypto-Jacking. Specifically, this study focuses on the explainability methods adopted or proposed in these fields, pointing out promising works and new challenges.",
+            "year": 2022,
+            "authors": [
+              "Nicola Capuano",
+              "Giuseppe Fenza",
+              "Vincenzo Loia",
+              "Claudio Stanzione"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2022.3204171",
+            "paper_id": "W:W4294691140",
+            "citations": 247,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2022.3204171",
+            "normalized_citation_score": 0.7237,
+            "normalized_recency_score": 0.7
+          },
+          {
+            "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+            "abstract": "… This paper presents a novel lightweight phishing detection approach completely based on … mentioned system produces a very satisfying recognition rate which is 95.80%. This system, …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/article/10.1186/s13673-017-0098-1",
+            "paper_id": "gen:12e7d7919ae5",
+            "citations": 180,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1186/s13673-017-0098-1",
+            "normalized_citation_score": 0.691,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Teaching Johnny not to fall for phish",
+            "abstract": "Phishing attacks, in which criminals lure Internet users to Web sites that spoof legitimate Web sites, are occurring with increasing frequency and are causing considerable harm to victims. While a great deal of effort has been devoted to solving the phishing problem by prevention and detection of phishing emails and phishing Web sites, little research has been done in the area of training users to recognize those attacks. Our research focuses on educating users about phishing and helping them make better trust decisions. We identified a number of challenges for end-user security education in general and anti-phishing education in particular: users are not motivated to learn about security; for most users, security is a secondary task; it is difficult to teach people to identify security threats without also increasing their tendency to misjudge nonthreats as threats. Keeping these challenges in mind, we developed an email-based anti-phishing education system called “PhishGuru” and an online game called “Anti-Phishing Phil” that teaches users how to use cues in URLs to avoid falling for phishing attacks. We applied learning science instructional principles in the design of PhishGuru and Anti-Phishing Phil. In this article we present the results of PhishGuru and Anti-Phishing Phil user studies that demonstrate the effectiveness of these tools. Our results suggest that, while automated detection systems should be used as the first line of defense against phishing attacks, user education offers a complementary approach to help people better recognize fraudulent emails and websites.",
+            "year": 2010,
+            "authors": [
+              "Ponnurangam Kumaraguru",
+              "Steve Sheng",
+              "Alessandro Acquisti",
+              "Lorrie Faith Cranor",
+              "Jason Hong"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1145/1754393.1754396",
+            "paper_id": "W:W2071869991",
+            "citations": 391,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1145/1754393.1754396",
+            "normalized_citation_score": 0.7672,
+            "normalized_recency_score": 0.35
+          },
+          {
+            "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+            "abstract": "The landscape of phishing email threats is continually evolving nowadays, making it challenging to combat effectively with traditional methods even with carrier-grade spam filters. Traditional detection mechanisms such as blacklisting, whitelisting, signature-based, and rule-based techniques could not effectively prevent phishing, spear-phishing, and zero-day attacks, as cybercriminals are using sophisticated techniques and trusted email service providers. Consequently, many researchers have recently concentrated on leveraging machine learning (ML) and deep learning (DL) approaches to enhance phishing email detection capabilities with better accuracy. To gain insights into the development of deep learning algorithms in the current research on phishing prevention, this study conducts a systematic literature review (SLR) following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. By synthesizing the 33 selected papers using the SLR approach, this study presents a taxonomy of DL-based phishing detection methods, analyzing their effectiveness, limitations, and future research directions to address current challenges. The study reveals that the adaptability of detection models to new behaviors of phishing emails is the major improvement area. This study aims to add details about deep learning used for security to the body of knowledge, and it discusses future research in phishing detection systems.",
+            "year": 2024,
+            "authors": [
+              "Phyo Htet Kyaw",
+              "Jairo Gutiérrez",
+              "Akbar Ghobakhlou"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.3390/electronics13193823",
+            "paper_id": "W:W4402925642",
+            "citations": 26,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/electronics13193823",
+            "normalized_citation_score": 0.4594,
+            "normalized_recency_score": 0.85
+          },
+          {
+            "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+            "abstract": "… phishing website assessment and propose an intelligent resilient and effective model for detecting e-banking phishing … to characterize the e-banking phishing website factors and to …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441",
+            "paper_id": "gen:275daf00c834",
+            "citations": 326,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1016/j.eswa.2010.04.044",
+            "normalized_citation_score": 0.7506,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Phishing detection system through hybrid machine learning based on URL",
+            "abstract": "… Phishing detection is required for all of these aspects to secure our computer system. Cyber … Over the last decade, several antiphishing detection mechanisms have been proposed. …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10058201/",
+            "paper_id": "gen:1bd69a15eede",
+            "citations": 311,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1109/iceeict61591.2024.10718484",
+            "normalized_citation_score": 0.7461,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "Detecting phishing websites using machine learning technique",
+            "abstract": "In recent years, advancements in Internet and cloud technologies have led to a significant increase in electronic trading in which consumers make online purchases and transactions. This growth leads to unauthorized access to users' sensitive information and damages the resources of an enterprise. Phishing is one of the familiar attacks that trick users to access malicious content and gain their information. In terms of website interface and uniform resource locator (URL), most phishing webpages look identical to the actual webpages. Various strategies for detecting phishing websites, such as blacklist, heuristic, Etc., have been suggested. However, due to inefficient security technologies, there is an exponential increase in the number of victims. The anonymous and uncontrollable framework of the Internet is more vulnerable to phishing attacks. Existing research works show that the performance of the phishing detection system is limited. There is a demand for an intelligent technique to protect users from the cyber-attacks. In this study, the author proposed a URL detection technique based on machine learning approaches. A recurrent neural network method is employed to detect phishing URL. Researcher evaluated the proposed method with 7900 malicious and 5800 legitimate sites, respectively. The experiments' outcome shows that the proposed method's performance is better than the recent approaches in malicious URL detection.",
+            "year": 2021,
+            "authors": [
+              "Ashit Kumar Dutta"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1371/journal.pone.0258361",
+            "paper_id": "W:W3207470445",
+            "citations": 107,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1371/journal.pone.0258361",
+            "normalized_citation_score": 0.6329,
+            "normalized_recency_score": 0.7
+          },
+          {
+            "title": "Jail-Phish: An improved search engine based phishing detection system",
+            "abstract": "… website is termed as phishing. Recent techniques use … the phishing attacks as it achieves promising detection accuracy. But, the limitation of this approach is that it fails when phishing …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0167404818304280",
+            "paper_id": "gen:eb5652437bc0",
+            "citations": 139,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1016/j.cose.2019.02.011",
+            "normalized_citation_score": 0.6627,
+            "normalized_recency_score": 0.4
+          },
+          {
+            "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+            "abstract": "We perform an in-depth, systematic benchmarking study and evaluation of phishing features on diverse and extensive datasets. We propose a new taxonomy of features based on the interpretation and purpose of each feature. Next, we propose a benchmarking framework called ‘PhishBench,’ which enables us to evaluate and compare the existing features for phishing detection systematically and thoroughly under identical experimental conditions, i.e., unified system specification, datasets, classifiers, and evaluation metrics. PhishBench is a first in the field of benchmarking phishing related research and incorporates thorough and systematic evaluation and feature comparison. We use PhishBench to test methods published in the phishing literature on new and diverse datasets to check their robustness and scalability. We study how dataset characteristics, e.g., varying legitimate to phishing ratios and increasing the size of imbalanced datasets, affect classification performance. Our results show that the imbalanced nature of phishing attacks affects the detection systems’ performance and researchers should take this into account when proposing a new method. We also found that retraining alone is not enough to defeat new attacks. New features and techniques are required to stop attackers from fooling detection systems.",
+            "year": 2020,
+            "authors": [
+              "Ayman El Aassal",
+              "Shahryar Baki",
+              "Avisha Das",
+              "Rakesh Verma"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2020.2969780",
+            "paper_id": "W:W3003583062",
+            "citations": 137,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2020.2969780",
+            "normalized_citation_score": 0.6611,
+            "normalized_recency_score": 0.5
+          },
+          {
+            "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+            "abstract": "… , we suggest a phishing detection system based on deep … phishing detection system for detecting phishing URLs. In order to detect phishing URLs and show the robustness of the system…",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2079-9292/12/1/232",
+            "paper_id": "gen:5793ccee37d3",
+            "citations": 291,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/electronics12010232",
+            "normalized_citation_score": 0.7398,
+            "normalized_recency_score": 0.4
+          }
+        ],
+        "selected_papers_count": 10
+      }
+    },
+    {
+      "agent": "Domain Specialist",
+      "thought": "Executed domain",
+      "output": {
+        "domain": "Security",
+        "topics": [
+          "Phishing Detection",
+          "Cybersecurity",
+          "Artificial Intelligence in Security"
+        ],
+        "query_analysis": {
+          "interpreted_intent": "Developing a system to identify and prevent phishing attacks",
+          "key_focus_areas": [
+            "Machine Learning Algorithms",
+            "Network Security",
+            "Threat Intelligence"
+          ]
+        }
+      }
+    },
+    {
+      "agent": "Recency & Relevance Specialist",
+      "thought": "Executed recency",
+      "output": {
+        "scored_papers": [
+          {
+            "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+            "abstract": "Nowadays, Artificial Intelligence (AI) is widely applied in every area of human being’s daily life. Despite the AI benefits, its application suffer from the opacity of complex internal mechanisms and doesn’t satisfy by design the principles of Explainable Artificial Intelligence (XAI). The lack of transparency further exacerbates the problem in the field of Cybersecurity because entrusting crucial decisions to a system that cannot explain itself presents obvious dangers. There are several methods in the literature capable of providing explainability of AI results. Anyway, the application of XAI in Cybersecurity can be a double-edged sword. It substantially improves the Cybersecurity practices but simultaneously leaves the system vulnerable to adversary attacks. Therefore, there is a need to analyze the state-of-the-art of XAI methods in Cybersecurity to provide a clear vision for future research. This study presents an in-depth examination of the application of XAI in Cybersecurity. It considers more than 300 papers to comprehensively analyze the main Cybersecurity application fields, like Intrusion Detection Systems,Malware detection, Phishing and Spam detection, BotNets detection, Fraud detection, Zero-Day vulnerabilities, Digital Forensics and Crypto-Jacking. Specifically, this study focuses on the explainability methods adopted or proposed in these fields, pointing out promising works and new challenges.",
+            "year": 2022,
+            "authors": [
+              "Nicola Capuano",
+              "Giuseppe Fenza",
+              "Vincenzo Loia",
+              "Claudio Stanzione"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2022.3204171",
+            "paper_id": "W:W4294691140",
+            "citations": 247,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2022.3204171",
+            "normalized_citation_score": 0.7237,
+            "normalized_recency_score": 0.7,
+            "index": 1,
+            "recency_score": 6,
+            "relevance_score": 6,
+            "verdict": "⚠️ Partially outdated"
+          },
+          {
+            "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+            "abstract": "… This paper presents a novel lightweight phishing detection approach completely based on … mentioned system produces a very satisfying recognition rate which is 95.80%. This system, …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/article/10.1186/s13673-017-0098-1",
+            "paper_id": "gen:12e7d7919ae5",
+            "citations": 180,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1186/s13673-017-0098-1",
+            "normalized_citation_score": 0.691,
+            "normalized_recency_score": 0.4,
+            "index": 2,
+            "recency_score": 3,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Teaching Johnny not to fall for phish",
+            "abstract": "Phishing attacks, in which criminals lure Internet users to Web sites that spoof legitimate Web sites, are occurring with increasing frequency and are causing considerable harm to victims. While a great deal of effort has been devoted to solving the phishing problem by prevention and detection of phishing emails and phishing Web sites, little research has been done in the area of training users to recognize those attacks. Our research focuses on educating users about phishing and helping them make better trust decisions. We identified a number of challenges for end-user security education in general and anti-phishing education in particular: users are not motivated to learn about security; for most users, security is a secondary task; it is difficult to teach people to identify security threats without also increasing their tendency to misjudge nonthreats as threats. Keeping these challenges in mind, we developed an email-based anti-phishing education system called “PhishGuru” and an online game called “Anti-Phishing Phil” that teaches users how to use cues in URLs to avoid falling for phishing attacks. We applied learning science instructional principles in the design of PhishGuru and Anti-Phishing Phil. In this article we present the results of PhishGuru and Anti-Phishing Phil user studies that demonstrate the effectiveness of these tools. Our results suggest that, while automated detection systems should be used as the first line of defense against phishing attacks, user education offers a complementary approach to help people better recognize fraudulent emails and websites.",
+            "year": 2010,
+            "authors": [
+              "Ponnurangam Kumaraguru",
+              "Steve Sheng",
+              "Alessandro Acquisti",
+              "Lorrie Faith Cranor",
+              "Jason Hong"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1145/1754393.1754396",
+            "paper_id": "W:W2071869991",
+            "citations": 391,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1145/1754393.1754396",
+            "normalized_citation_score": 0.7672,
+            "normalized_recency_score": 0.35,
+            "index": 3,
+            "recency_score": 1,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+            "abstract": "The landscape of phishing email threats is continually evolving nowadays, making it challenging to combat effectively with traditional methods even with carrier-grade spam filters. Traditional detection mechanisms such as blacklisting, whitelisting, signature-based, and rule-based techniques could not effectively prevent phishing, spear-phishing, and zero-day attacks, as cybercriminals are using sophisticated techniques and trusted email service providers. Consequently, many researchers have recently concentrated on leveraging machine learning (ML) and deep learning (DL) approaches to enhance phishing email detection capabilities with better accuracy. To gain insights into the development of deep learning algorithms in the current research on phishing prevention, this study conducts a systematic literature review (SLR) following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. By synthesizing the 33 selected papers using the SLR approach, this study presents a taxonomy of DL-based phishing detection methods, analyzing their effectiveness, limitations, and future research directions to address current challenges. The study reveals that the adaptability of detection models to new behaviors of phishing emails is the major improvement area. This study aims to add details about deep learning used for security to the body of knowledge, and it discusses future research in phishing detection systems.",
+            "year": 2024,
+            "authors": [
+              "Phyo Htet Kyaw",
+              "Jairo Gutiérrez",
+              "Akbar Ghobakhlou"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.3390/electronics13193823",
+            "paper_id": "W:W4402925642",
+            "citations": 26,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/electronics13193823",
+            "normalized_citation_score": 0.4594,
+            "normalized_recency_score": 0.85,
+            "index": 4,
+            "recency_score": 8,
+            "relevance_score": 6,
+            "verdict": "✅ Still valid"
+          },
+          {
+            "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+            "abstract": "… phishing website assessment and propose an intelligent resilient and effective model for detecting e-banking phishing … to characterize the e-banking phishing website factors and to …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441",
+            "paper_id": "gen:275daf00c834",
+            "citations": 326,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1016/j.eswa.2010.04.044",
+            "normalized_citation_score": 0.7506,
+            "normalized_recency_score": 0.4,
+            "index": 5,
+            "recency_score": 3,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Phishing detection system through hybrid machine learning based on URL",
+            "abstract": "… Phishing detection is required for all of these aspects to secure our computer system. Cyber … Over the last decade, several antiphishing detection mechanisms have been proposed. …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://ieeexplore.ieee.org/abstract/document/10058201/",
+            "paper_id": "gen:1bd69a15eede",
+            "citations": 311,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "conference",
+            "doi": "10.1109/iceeict61591.2024.10718484",
+            "normalized_citation_score": 0.7461,
+            "normalized_recency_score": 0.4,
+            "index": 6,
+            "recency_score": 3,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Detecting phishing websites using machine learning technique",
+            "abstract": "In recent years, advancements in Internet and cloud technologies have led to a significant increase in electronic trading in which consumers make online purchases and transactions. This growth leads to unauthorized access to users' sensitive information and damages the resources of an enterprise. Phishing is one of the familiar attacks that trick users to access malicious content and gain their information. In terms of website interface and uniform resource locator (URL), most phishing webpages look identical to the actual webpages. Various strategies for detecting phishing websites, such as blacklist, heuristic, Etc., have been suggested. However, due to inefficient security technologies, there is an exponential increase in the number of victims. The anonymous and uncontrollable framework of the Internet is more vulnerable to phishing attacks. Existing research works show that the performance of the phishing detection system is limited. There is a demand for an intelligent technique to protect users from the cyber-attacks. In this study, the author proposed a URL detection technique based on machine learning approaches. A recurrent neural network method is employed to detect phishing URL. Researcher evaluated the proposed method with 7900 malicious and 5800 legitimate sites, respectively. The experiments' outcome shows that the proposed method's performance is better than the recent approaches in malicious URL detection.",
+            "year": 2021,
+            "authors": [
+              "Ashit Kumar Dutta"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1371/journal.pone.0258361",
+            "paper_id": "W:W3207470445",
+            "citations": 107,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1371/journal.pone.0258361",
+            "normalized_citation_score": 0.6329,
+            "normalized_recency_score": 0.7,
+            "index": 7,
+            "recency_score": 5,
+            "relevance_score": 6,
+            "verdict": "⚠️ Partially outdated"
+          },
+          {
+            "title": "Jail-Phish: An improved search engine based phishing detection system",
+            "abstract": "… website is termed as phishing. Recent techniques use … the phishing attacks as it achieves promising detection accuracy. But, the limitation of this approach is that it fails when phishing …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0167404818304280",
+            "paper_id": "gen:eb5652437bc0",
+            "citations": 139,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1016/j.cose.2019.02.011",
+            "normalized_citation_score": 0.6627,
+            "normalized_recency_score": 0.4,
+            "index": 8,
+            "recency_score": 3,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "An In-Depth Benchmarking and Evaluation of Phishing Detection Research for Security Needs",
+            "abstract": "We perform an in-depth, systematic benchmarking study and evaluation of phishing features on diverse and extensive datasets. We propose a new taxonomy of features based on the interpretation and purpose of each feature. Next, we propose a benchmarking framework called ‘PhishBench,’ which enables us to evaluate and compare the existing features for phishing detection systematically and thoroughly under identical experimental conditions, i.e., unified system specification, datasets, classifiers, and evaluation metrics. PhishBench is a first in the field of benchmarking phishing related research and incorporates thorough and systematic evaluation and feature comparison. We use PhishBench to test methods published in the phishing literature on new and diverse datasets to check their robustness and scalability. We study how dataset characteristics, e.g., varying legitimate to phishing ratios and increasing the size of imbalanced datasets, affect classification performance. Our results show that the imbalanced nature of phishing attacks affects the detection systems’ performance and researchers should take this into account when proposing a new method. We also found that retraining alone is not enough to defeat new attacks. New features and techniques are required to stop attackers from fooling detection systems.",
+            "year": 2020,
+            "authors": [
+              "Ayman El Aassal",
+              "Shahryar Baki",
+              "Avisha Das",
+              "Rakesh Verma"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2020.2969780",
+            "paper_id": "W:W3003583062",
+            "citations": 137,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2020.2969780",
+            "normalized_citation_score": 0.6611,
+            "normalized_recency_score": 0.5,
+            "index": 9,
+            "recency_score": 3,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+            "abstract": "… , we suggest a phishing detection system based on deep … phishing detection system for detecting phishing URLs. In order to detect phishing URLs and show the robustness of the system…",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.mdpi.com/2079-9292/12/1/232",
+            "paper_id": "gen:5793ccee37d3",
+            "citations": 291,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/electronics12010232",
+            "normalized_citation_score": 0.7398,
+            "normalized_recency_score": 0.4,
+            "index": 10,
+            "recency_score": 3,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          }
+        ],
+        "top_papers": [
+          {
+            "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+            "abstract": "The landscape of phishing email threats is continually evolving nowadays, making it challenging to combat effectively with traditional methods even with carrier-grade spam filters. Traditional detection mechanisms such as blacklisting, whitelisting, signature-based, and rule-based techniques could not effectively prevent phishing, spear-phishing, and zero-day attacks, as cybercriminals are using sophisticated techniques and trusted email service providers. Consequently, many researchers have recently concentrated on leveraging machine learning (ML) and deep learning (DL) approaches to enhance phishing email detection capabilities with better accuracy. To gain insights into the development of deep learning algorithms in the current research on phishing prevention, this study conducts a systematic literature review (SLR) following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. By synthesizing the 33 selected papers using the SLR approach, this study presents a taxonomy of DL-based phishing detection methods, analyzing their effectiveness, limitations, and future research directions to address current challenges. The study reveals that the adaptability of detection models to new behaviors of phishing emails is the major improvement area. This study aims to add details about deep learning used for security to the body of knowledge, and it discusses future research in phishing detection systems.",
+            "year": 2024,
+            "authors": [
+              "Phyo Htet Kyaw",
+              "Jairo Gutiérrez",
+              "Akbar Ghobakhlou"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.3390/electronics13193823",
+            "paper_id": "W:W4402925642",
+            "citations": 26,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.3390/electronics13193823",
+            "normalized_citation_score": 0.4594,
+            "normalized_recency_score": 0.85,
+            "index": 4,
+            "recency_score": 8,
+            "relevance_score": 6,
+            "verdict": "✅ Still valid"
+          },
+          {
+            "title": "Explainable Artificial Intelligence in CyberSecurity: A Survey",
+            "abstract": "Nowadays, Artificial Intelligence (AI) is widely applied in every area of human being’s daily life. Despite the AI benefits, its application suffer from the opacity of complex internal mechanisms and doesn’t satisfy by design the principles of Explainable Artificial Intelligence (XAI). The lack of transparency further exacerbates the problem in the field of Cybersecurity because entrusting crucial decisions to a system that cannot explain itself presents obvious dangers. There are several methods in the literature capable of providing explainability of AI results. Anyway, the application of XAI in Cybersecurity can be a double-edged sword. It substantially improves the Cybersecurity practices but simultaneously leaves the system vulnerable to adversary attacks. Therefore, there is a need to analyze the state-of-the-art of XAI methods in Cybersecurity to provide a clear vision for future research. This study presents an in-depth examination of the application of XAI in Cybersecurity. It considers more than 300 papers to comprehensively analyze the main Cybersecurity application fields, like Intrusion Detection Systems,Malware detection, Phishing and Spam detection, BotNets detection, Fraud detection, Zero-Day vulnerabilities, Digital Forensics and Crypto-Jacking. Specifically, this study focuses on the explainability methods adopted or proposed in these fields, pointing out promising works and new challenges.",
+            "year": 2022,
+            "authors": [
+              "Nicola Capuano",
+              "Giuseppe Fenza",
+              "Vincenzo Loia",
+              "Claudio Stanzione"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1109/access.2022.3204171",
+            "paper_id": "W:W4294691140",
+            "citations": 247,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1109/access.2022.3204171",
+            "normalized_citation_score": 0.7237,
+            "normalized_recency_score": 0.7,
+            "index": 1,
+            "recency_score": 6,
+            "relevance_score": 6,
+            "verdict": "⚠️ Partially outdated"
+          },
+          {
+            "title": "Detecting phishing websites using machine learning technique",
+            "abstract": "In recent years, advancements in Internet and cloud technologies have led to a significant increase in electronic trading in which consumers make online purchases and transactions. This growth leads to unauthorized access to users' sensitive information and damages the resources of an enterprise. Phishing is one of the familiar attacks that trick users to access malicious content and gain their information. In terms of website interface and uniform resource locator (URL), most phishing webpages look identical to the actual webpages. Various strategies for detecting phishing websites, such as blacklist, heuristic, Etc., have been suggested. However, due to inefficient security technologies, there is an exponential increase in the number of victims. The anonymous and uncontrollable framework of the Internet is more vulnerable to phishing attacks. Existing research works show that the performance of the phishing detection system is limited. There is a demand for an intelligent technique to protect users from the cyber-attacks. In this study, the author proposed a URL detection technique based on machine learning approaches. A recurrent neural network method is employed to detect phishing URL. Researcher evaluated the proposed method with 7900 malicious and 5800 legitimate sites, respectively. The experiments' outcome shows that the proposed method's performance is better than the recent approaches in malicious URL detection.",
+            "year": 2021,
+            "authors": [
+              "Ashit Kumar Dutta"
+            ],
+            "source": "OpenAlex",
+            "url": "https://doi.org/10.1371/journal.pone.0258361",
+            "paper_id": "W:W3207470445",
+            "citations": 107,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1371/journal.pone.0258361",
+            "normalized_citation_score": 0.6329,
+            "normalized_recency_score": 0.7,
+            "index": 7,
+            "recency_score": 5,
+            "relevance_score": 6,
+            "verdict": "⚠️ Partially outdated"
+          },
+          {
+            "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+            "abstract": "… This paper presents a novel lightweight phishing detection approach completely based on … mentioned system produces a very satisfying recognition rate which is 95.80%. This system, …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://link.springer.com/article/10.1186/s13673-017-0098-1",
+            "paper_id": "gen:12e7d7919ae5",
+            "citations": 180,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1186/s13673-017-0098-1",
+            "normalized_citation_score": 0.691,
+            "normalized_recency_score": 0.4,
+            "index": 2,
+            "recency_score": 3,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          },
+          {
+            "title": "Intelligent phishing detection system for e-banking using fuzzy data mining",
+            "abstract": "… phishing website assessment and propose an intelligent resilient and effective model for detecting e-banking phishing … to characterize the e-banking phishing website factors and to …",
+            "year": null,
+            "authors": [],
+            "source": "Web (Google Scholar via SerpAPI)",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0957417410003441",
+            "paper_id": "gen:275daf00c834",
+            "citations": 326,
+            "influential_citations": null,
+            "is_influential": null,
+            "verified": true,
+            "source_type": "journal",
+            "doi": "10.1016/j.eswa.2010.04.044",
+            "normalized_citation_score": 0.7506,
+            "normalized_recency_score": 0.4,
+            "index": 5,
+            "recency_score": 3,
+            "relevance_score": 6,
+            "verdict": "❌ Outdated"
+          }
+        ]
+      }
+    },
+    {
+      "agent": "Insight Analyzer",
+      "thought": "Executed insight (parallel)",
+      "output": {
+        "insight": {
+          "query_understanding": {
+            "interpreted_intent": "Developing a system to identify and prevent phishing attacks",
+            "key_focus_areas": [
+              "Machine Learning Algorithms",
+              "Network Security",
+              "Threat Intelligence"
+            ]
+          },
+          "per_paper": [
+            {
+              "paper_id": "W:W4402925642",
+              "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+              "problem": "Phishing email detection",
+              "method": "Deep learning techniques",
+              "dataset": "",
+              "experimental_setup": "",
+              "results": "",
+              "limitations": "Limited to email phishing"
+            },
+            {
+              "paper_id": "gen:12e7d7919ae5",
+              "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+              "problem": "URL phishing detection",
+              "method": "SVM and similarity index",
+              "dataset": "",
+              "experimental_setup": "",
+              "results": "",
+              "limitations": "Limited to URL phishing"
+            },
+            {
+              "paper_id": "gen:5793ccee37d3",
+              "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+              "problem": "Phishing detection",
+              "method": "Deep learning (CNN, LSTM, LSTM-CNN)",
+              "dataset": "",
+              "experimental_setup": "",
+              "results": "",
+              "limitations": "Limited to specific deep learning models"
+            }
+          ],
+          "cross_paper": {
+            "agreements": [
+              {
+                "statement": "Machine learning and deep learning techniques are effective for phishing detection",
+                "paper_ids": [
+                  "W:W4402925642",
+                  "gen:12e7d7919ae5",
+                  "gen:5793ccee37d3"
+                ]
+              }
+            ],
+            "contradictions": [],
+            "trends": [
+              {
+                "note": "Increasing use of deep learning techniques for phishing detection",
+                "paper_ids": [
+                  "W:W4402925642",
+                  "gen:5793ccee37d3"
+                ]
+              }
+            ],
+            "gaps": []
+          },
+          "strong_insights": [
+            {
+              "insight": "Deep learning techniques can improve phishing detection accuracy",
+              "paper_ids": [
+                "W:W4402925642",
+                "gen:5793ccee37d3"
+              ],
+              "strength": "high"
+            }
+          ],
+          "weak_or_preliminary": [],
+          "unknowns": [
+            "Effectiveness of natural language processing for phishing detection"
+          ],
+          "evidence_strength": {
+            "level": "medium",
+            "justification": "Limited number of papers with specific results"
+          },
+          "final_answer": "Insufficient evidence found",
+          "confidence_reasoning": {
+            "num_papers_used": 3,
+            "consistency": "Some consistency in findings",
+            "limitations": "Limited scope of papers and lack of comprehensive results"
+          },
+          "paper_analysis": [
+            {
+              "paper_id": "W:W4402925642",
+              "title": "A Systematic Review of Deep Learning Techniques for Phishing Email Detection",
+              "problem": "Phishing email detection",
+              "method": "Deep learning techniques",
+              "dataset": "",
+              "experimental_setup": "",
+              "results": "",
+              "limitations": "Limited to email phishing"
+            },
+            {
+              "paper_id": "gen:12e7d7919ae5",
+              "title": "A novel lightweight URL phishing detection system using SVM and similarity index",
+              "problem": "URL phishing detection",
+              "method": "SVM and similarity index",
+              "dataset": "",
+              "experimental_setup": "",
+              "results": "",
+              "limitations": "Limited to URL phishing"
+            },
+            {
+              "paper_id": "gen:5793ccee37d3",
+              "title": "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN",
+              "problem": "Phishing detection",
+              "method": "Deep learning (CNN, LSTM, LSTM-CNN)",
+              "dataset": "",
+              "experimental_setup": "",
+              "results": "",
+              "limitations": "Limited to specific deep learning models"
+            }
+          ],
+          "agreements": [
+            "Machine learning and deep learning techniques are effective for phishing detection"
+          ]
+        }
+      }
+    },
+    {
+      "agent": "Gap Detector",
+      "thought": "Executed gap (parallel)",
+      "output": {
+        "gaps": {
+          "gaps": [
+            {
+              "gap": "Lack of Explainability in Phishing Detection Systems",
+              "impact": "Difficulty in understanding the decision-making process of phishing detection systems",
+              "evidence_paper_ids": [
+                "W:W4294691140"
+              ]
+            },
+            {
+              "gap": "Limited Robustness of Phishing Detection Systems to New Attacks",
+              "impact": "Phishing detection systems may not be effective against new and evolving phishing attacks",
+              "evidence_paper_ids": [
+                "W:W3003583062"
+              ]
+            },
+            {
+              "gap": "Need for Improved User Education and Awareness",
+              "impact": "Users may not be able to recognize phishing attacks, even with the presence of detection systems",
+              "evidence_paper_ids": [
+                "W:W2071869991"
+              ]
+            }
+          ],
+          "opportunities": [
+            {
+              "opportunity": "Development of Explainable Phishing Detection Systems",
+              "why_now": "The increasing use of AI and machine learning in phishing detection systems requires explainability to build trust",
+              "linked_gaps": [
+                "Lack of Explainability in Phishing Detection Systems"
+              ]
+            },
+            {
+              "opportunity": "Improvement of Phishing Detection Systems using Deep Learning Techniques",
+              "why_now": "The evolving nature of phishing attacks requires the use of advanced techniques such as deep learning",
+              "linked_gaps": [
+                "Limited Robustness of Phishing Detection Systems to New Attacks"
+              ]
+            },
+            {
+              "opportunity": "Enhancement of User Education and Awareness Programs",
+              "why_now": "The increasing number of phishing attacks requires users to be educated and aware of the risks",
+              "linked_gaps": [
+                "Need for Improved User Education and Awareness"
+              ]
+            }
+          ],
+          "missing_links": [
+            {
+              "missing_connection": "Integration of Explainability and Deep Learning in Phishing Detection Systems",
+              "why_it_matters": "The combination of explainability and deep learning can improve the effectiveness and trustworthiness of phishing detection systems",
+              "candidate_paper_ids": [
+                "W:W4294691140",
+                "W:W4402925642"
+              ]
+            },
+            {
+              "missing_connection": "Development of Benchmarking Frameworks for Phishing Detection Systems",
+              "why_it_matters": "Benchmarking frameworks can help evaluate and compare the performance of different phishing detection systems",
+              "candidate_paper_ids": [
+                "W:W3003583062"
+              ]
+            },
+            {
+              "missing_connection": "Investigation of the Impact of User Education on Phishing Detection",
+              "why_it_matters": "Understanding the impact of user education on phishing detection can help improve the overall effectiveness of phishing detection systems",
+              "candidate_paper_ids": [
+                "W:W2071869991"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "agent": "Trend Analyst",
+      "thought": "Executed trend (parallel)",
+      "output": {
+        "trends": {
+          "trends": [
+            {
+              "trend": "Machine Learning for Phishing Detection",
+              "evidence_paper_ids": [
+                "W:W3207470445",
+                "gen:1bd69a15eede",
+                "gen:5793ccee37d3"
+              ],
+              "evidence_titles": [
+                "Detecting phishing websites using machine learning technique",
+                "Phishing detection system through hybrid machine learning based on URL",
+                "A deep learning-based phishing detection system using CNN, LSTM, and LSTM-CNN"
+              ]
+            },
+            {
+              "trend": "Deep Learning Techniques for Phishing Email Detection",
+              "evidence_paper_ids": [
+                "W:W4402925642"
+              ],
+              "evidence_titles": [
+                "A Systematic Review of Deep Learning Techniques for Phishing Email Detection"
+              ]
+            },
+            {
+              "trend": "Explainable Artificial Intelligence in Phishing Detection",
+              "evidence_paper_ids": [
+                "W:W4294691140"
+              ],
+              "evidence_titles": [
+                "Explainable Artificial Intelligence in CyberSecurity: A Survey"
+              ]
+            }
+          ],
+          "predictions": [
+            {
+              "prediction": "Increased Adoption of Hybrid Machine Learning Models for Phishing Detection",
+              "rationale": "The effectiveness of hybrid machine learning models in detecting phishing attacks, as seen in recent studies, is likely to lead to increased adoption in the industry.",
+              "evidence_paper_ids": [
+                "gen:1bd69a15eede",
+                "W:W3207470445"
+              ]
+            },
+            {
+              "prediction": "Growing Importance of Explainability in Phishing Detection Systems",
+              "rationale": "As phishing detection systems become more complex, the need for explainability and transparency in their decision-making processes will become increasingly important.",
+              "evidence_paper_ids": [
+                "W:W4294691140"
+              ]
+            }
+          ],
+          "signals_to_watch": [
+            "Advances in Natural Language Processing (NLP) for phishing detection",
+            "Increased focus on user education and awareness in preventing phishing attacks",
+            "Growing use of cloud-based services for phishing detection and prevention"
+          ]
+        }
+      }
+    },
+    {
+      "agent": "Devil's Advocate",
+      "thought": "Executed critic",
+      "output": {
+        "critique": {
+          "weaknesses": [
+            {
+              "text": "Limited scope of papers, with most focusing on specific types of phishing attacks, such as email or URL phishing",
+              "paper_ids": [
+                "W:W4402925642",
+                "gen:12e7d7919ae5",
+                "gen:5793ccee37d3"
+              ]
+            },
+            {
+              "text": "Lack of comprehensive results and limited datasets used in the studies",
+              "paper_ids": [
+                "W:W4402925642",
+                "gen:12e7d7919ae5",
+                "gen:5793ccee37d3"
+              ]
+            }
+          ],
+          "conflicts": [],
+          "missing_evidence": [
+            {
+              "text": "Effectiveness of natural language processing for phishing detection"
+            },
+            {
+              "text": "Impact of user education on phishing detection"
+            }
+          ],
+          "risks": [
+            {
+              "text": "Phishing detection systems may not be effective against new and evolving phishing attacks",
+              "paper_ids": [
+                "W:W3003583062"
+              ]
+            },
+            {
+              "text": "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability",
+              "paper_ids": [
+                "W:W4294691140"
+              ]
+            }
+          ],
+          "readable_summary": "The current research on phishing detection systems has several weaknesses, including limited scope and lack of comprehensive results. There are also risks associated with the effectiveness of these systems against new attacks and the need for explainability. Further research is needed to address these gaps and improve the overall effectiveness of phishing detection systems."
+        },
+        "conflicts_detected": []
+      }
+    },
+    {
+      "agent": "Consensus Voter",
+      "thought": "Executed voter",
+      "output": {
+        "consensus": {
+          "final_answer": "Insufficient evidence found",
+          "key_points": [
+            "Machine learning and deep learning techniques are effective for phishing detection"
+          ],
+          "gaps": [
+            "Lack of Explainability in Phishing Detection Systems",
+            "Limited Robustness of Phishing Detection Systems to New Attacks",
+            "Need for Improved User Education and Awareness"
+          ],
+          "trends": [
+            "Development of Explainable Phishing Detection Systems",
+            "Improvement of Phishing Detection Systems using Deep Learning Techniques"
+          ],
+          "synthesis": {
+            "executive_summary": "Insufficient evidence found",
+            "key_findings": [
+              {
+                "text": "Machine learning and deep learning techniques are effective for phishing detection",
+                "paper_ids": [
+                  "W:W4402925642",
+                  "gen:12e7d7919ae5",
+                  "gen:5793ccee37d3"
+                ]
+              }
+            ],
+            "comparative_analysis": [
+              {
+                "text": "Deep learning techniques can improve phishing detection accuracy",
+                "paper_ids": [
+                  "W:W4402925642",
+                  "gen:5793ccee37d3"
+                ]
+              }
+            ],
+            "contradictions": [],
+            "research_gaps": [
+              {
+                "text": "Lack of Explainability in Phishing Detection Systems",
+                "paper_ids": [
+                  "W:W4294691140"
+                ]
+              },
+              {
+                "text": "Limited Robustness of Phishing Detection Systems to New Attacks",
+                "paper_ids": [
+                  "W:W3003583062"
+                ]
+              },
+              {
+                "text": "Need for Improved User Education and Awareness",
+                "paper_ids": [
+                  "W:W2071869991"
+                ]
+              }
+            ],
+            "risks": [
+              {
+                "text": "Phishing detection systems may not be effective against new and evolving phishing attacks",
+                "paper_ids": [
+                  "W:W3003583062"
+                ]
+              },
+              {
+                "text": "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability",
+                "paper_ids": [
+                  "W:W4294691140"
+                ]
+              }
+            ],
+            "future_directions": [
+              {
+                "text": "Development of Explainable Phishing Detection Systems",
+                "paper_ids": [
+                  "W:W4294691140"
+                ]
+              },
+              {
+                "text": "Improvement of Phishing Detection Systems using Deep Learning Techniques",
+                "paper_ids": [
+                  "W:W4402925642",
+                  "gen:5793ccee37d3"
+                ]
+              }
+            ],
+            "conclusion": "Further research is needed to address the gaps and improve the overall effectiveness of phishing detection systems."
+          }
+        }
+      }
+    },
+    {
+      "agent": "Confidence & Risk Assessor",
+      "thought": "Executed confidence",
+      "output": {
+        "confidence_assessment": {
+          "issues_detected": [
+            "Limited scope of papers",
+            "Lack of comprehensive results"
+          ],
+          "risk_flags": [
+            "Phishing detection systems may not be effective against new and evolving phishing attacks",
+            "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability"
+          ],
+          "confidence_score": 65,
+          "confidence_level": "MEDIUM",
+          "confidence_justification": "The confidence score is based on the deterministic engine's score of 69.18, adjusted downwards by 4 points due to the limited scope of papers and lack of comprehensive results (paper_ids: W:W4402925642, gen:12e7d7919ae5, gen:5793ccee37d3).",
+          "revised_conclusion": "While machine learning and deep learning techniques are effective for phishing detection, further research is needed to address the gaps and improve the overall effectiveness of phishing detection systems.",
+          "answer_defense": {
+            "how_to_verify": [
+              "Reviewing the papers cited in the consensus and critic sections",
+              "Analyzing the results of the deterministic engine"
+            ],
+            "where_system_might_be_wrong": [
+              "Overreliance on limited datasets",
+              "Lack of consideration for new and evolving phishing attacks"
+            ],
+            "confidence_risks": [
+              "Phishing detection systems may not be effective against new and evolving phishing attacks",
+              "Difficulty in understanding the decision-making process of phishing detection systems due to lack of explainability"
+            ]
+          },
+          "influential_paper_ids": [
+            "W:W4402925642",
+            "gen:12e7d7919ae5",
+            "gen:5793ccee37d3",
+            "W:W4294691140",
+            "W:W3003583062"
+          ]
+        }
+      }
+    }
+  ],
+  "analytics": {
+    "citation_and_timeline": {
+      "total_papers": 10,
+      "citation_sum": 2155,
+      "citation_mean": 215.5,
+      "year_min": 2010,
+      "year_max": 2024,
+      "timeline": {
+        "2010": 1,
+        "2020": 1,
+        "2021": 1,
+        "2022": 1,
+        "2024": 1
+      }
+    },
+    "knowledge_graph_note": "Edges use TF–IDF cosine on title+abstract (defensible, corpus-local)."
+  },
+  "run_id": "47795836-fed8-4037-b042-968f62783b63",
+  "saved_at": "2026-04-25T01:03:23.981232Z"
+}
