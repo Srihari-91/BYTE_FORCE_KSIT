@@ -44,3 +44,4 @@ An advanced multi-agent system for complex query analysis, evidence verification
 8. **Debate Agent** simulates a debate between analysis and criticism.
 9. **Decision Agent** makes the final call.
 10. **Action Agent** provides implementation steps.
+11. 
